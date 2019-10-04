@@ -32,7 +32,7 @@ a:hover{
 	color: #58B09C;
 }
 a:active{
-	color: #636366;
+	color: #58B09C;
 }
 
 /* --------------------------------------------- */
@@ -160,6 +160,15 @@ footer a {
 footer a:link {
     color: #D8F9E9;
     text-decoration: underline;
+}
+footer a:visited{
+	color: #D8F9E9;
+}
+footer a:hover{
+	color: #FFFFFF;
+}
+footer a:active{
+	color: #FFFFFF;
 }
 
 
