@@ -43,7 +43,7 @@ header {
 }
 h1 {
     font-size: 25px;
-    color: #636366;
+    color: #333335;
 }
 
 /* ----- Logo/Tagline Formatting ----- */
@@ -92,6 +92,18 @@ nav a:hover {
     color: #FFFFFF;
 }
 nav a:active {
+    color: #FFFFFF;
+}
+.activelink a:link {
+    color: #58B09C;
+}
+.activelink a:visited {
+    color: #58B09C;
+}
+.activelink a:hover {
+    color: #FFFFFF;
+}
+.activelink a:active {
     color: #FFFFFF;
 }
 
