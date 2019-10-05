@@ -42,7 +42,7 @@ header {
     text-align: center;
 }
 h1 {
-    font-size: 25px;
+    line-height: 40px;
     color: #333335;
 }
 
@@ -125,22 +125,57 @@ main {
 /* --------------------------------------------- */
 /* --------- Target Audience Page Formatting ----------- */
 /* --------------------------------------------- */
+.audience {
+    text-align: left;
+}
+section {
+    padding: 10px;
+}
+ul {
+    margin: 0;
+    padding-left: 20px
+}
+main p {
+    padding-top: 10px;
+}
+#scenarios ul {
+    padding-top: 10px;
+}
 
 
 /* --------------------------------------------- */
 /* --------- Color Scheme Page Formatting ----------- */
 /* --------------------------------------------- */
+.color img {
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+}
+.color ul {
+    list-style: none;
+}
 
 
 /* --------------------------------------------- */
 /* --------- Typography Page Formatting ----------- */
 /* --------------------------------------------- */
-
+h1 {
+    font-size: 2em;
+}
 
 /* --------------------------------------------- */
 /* --------- Site Map Page Formatting ----------- */
 /* --------------------------------------------- */
-
+.map img {
+    margin: 15px auto;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #333335;
+}
+.map {
+    margin: 0;
+    padding: 10px;
+}
 
 
 /* --------------------------------------------- */
