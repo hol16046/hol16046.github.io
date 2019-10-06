@@ -159,9 +159,88 @@ main p {
 /* --------------------------------------------- */
 /* --------- Typography Page Formatting ----------- */
 /* --------------------------------------------- */
-h1 {
-    font-size: 2em;
+.fonts section {
+    padding: 0;
 }
+.fonts h1 {
+    font-size: 2em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.fonts h2, .fonts h3{
+    padding-bottom: 10px;
+}
+.fonts p {
+    padding: 0 0 10px 0;
+}
+#link a {
+	text-decoration: none;
+}
+#link a:link{
+	color: #218681;
+}
+#link a:visited{
+	color: #218681;
+}
+#link a:hover{
+	color: #58B09C;
+}
+#link a:active{
+	color: #58B09C;
+}
+#footertext {
+    background-color: #015249;
+    margin-bottom: 15px;
+    padding: 6px;
+    width: 50%;
+    font-size: 16px;
+    color: #D8F9E9;
+}
+#footernav {
+    background-color: #015249;
+    margin-bottom: 15px;
+    padding: 6px;
+    width: 50%;
+    font-size: 16px;
+}
+#footernav a {
+    color: #D8F9E9;
+    text-decoration: underline;
+}
+#footernav a:link {
+    color: #D8F9E9;
+    text-decoration: underline;
+}
+#footernav a:visited{
+	color: #D8F9E9;
+}
+#footernav a:hover{
+	color: #FFFFFF;
+}
+footer a:active{
+	color: #FFFFFF;
+}
+#nav {
+    font-size: 1.35em;
+    background-color: #015249;
+    padding: 6px;
+    border: 3px solid #636366;
+    height: 50px;
+    width: 50%;
+}
+#nav a:link {
+    color: #D8F9E9;
+}
+#nav a:visited {
+    color: #D8F9E9;
+}
+#nav a:hover {
+    color: #FFFFFF;
+}
+#nav a:active {
+    color: #FFFFFF;
+}
+
 
 /* --------------------------------------------- */
 /* --------- Site Map Page Formatting ----------- */
