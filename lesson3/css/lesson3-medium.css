@@ -72,10 +72,15 @@
     /* --------------------------------------------- */
     /* --------- Typography Page Formatting ----------- */
     /* --------------------------------------------- */
-    .headingstyle h1 {
-        margin: 0;
-        padding-bottom: 10px;
+    .fonts section {
+        margin: 20px;
     }
+    #nav {
+        display: flex;
+        align-items: center;
+        height: 82px;
+    }
+
 
 
     /* --------------------------------------------- */
