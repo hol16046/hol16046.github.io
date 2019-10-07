@@ -71,13 +71,12 @@ nav li {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-
     padding: 6px;
 }
 nav li a {
     text-decoration: none;
 }
-#lastnavlink {
+.lastnavlink {
     border-bottom: 3px solid #636366;
 }
 
@@ -284,34 +283,3 @@ footer a:hover{
 footer a:active{
 	color: #FFFFFF;
 }
-
-
-/* --------------------------------------------- */
-/* --------- Tablet View Formatting ----------- */
-/* --------------------------------------------- */
-/*@media only screen and (min-width: 37.5em) {
-	main {
-		grid-template-columns: 1fr 1fr;
-    }
-    
-    section:nth-child(3) {
-		grid-column: span 2;
-    }
-} */
-    
-/* --------------------------------------------- */
-/* ---------Desktop View Formatting ----------- */
-/* --------------------------------------------- */
-/*@media only screen and (min-width: 60em) {
-    main {
-		grid-template-columns: 1fr 1fr 1fr;
-    }
-    section:nth-child(3) {
-		grid-column: span 1;
-    }
-    header, main, footer {
-        margin: 1.25rem auto;
-        padding: 1em;
-        max-width: 900px;
-    }
-} */

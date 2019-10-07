@@ -8,24 +8,28 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link href="https://fonts.googleapis.com/css?family=Merriweather%7cQuicksand&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/lesson3.css">
+        <link rel="stylesheet" href="css/lesson3-medium.css">
+        <link rel="stylesheet" href="css/lesson3-large.css">
     </head>
     <body>
         <header>
             <img src="images/seidweatherlogo-colored-large.png" alt="Southeast Idaho Weather Logo">
             <!-- <h1>Southeast Idaho Weather</h1> -->
-            <h1>Website Planning Document by Heather Holt</h1>
+            <h1>Website Planning Document <span id="secondline">by Heather Holt</span></h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Site Purpose</a></li>
-                    <li><a href="target-audience.html">Target Audience</a></li>
-                    <li class="activelink"><a href="color-scheme.html">Color Scheme</a></li>
-                    <li><a href="typography.html">Typography</a></li>
-                    <li id="lastnavlink"><a href="sitemap.html">Site Map</a></li>
+                    <li class="activelink, firstlink" #id="purposenav"><a href="index.html">Site Purpose</a></li>
+                    <li id="targetnav"><a href="target-audience.html">Target Audience</a></li>
+                    <li id="colornav"><a href="color-scheme.html">Color Scheme</a></li>
+                    <li id="typenav"><a href="typography.html">Typography</a></li>
+                    <li class="lastnavlink" id="mapnav"><a href="sitemap.html">Site Map</a></li>
                 </ul>
             </nav>
         </header>
         <main id="scheme">
-            <h2>Color Scheme</h2>
+            <section id="colorhead">
+                <h2>Color Scheme</h2>
+            </section>    
             <section class="color" id="white">
                 <img src="images/color-scheme/FFFFFF-border.png" alt="White square with gray border">
                 <ul>

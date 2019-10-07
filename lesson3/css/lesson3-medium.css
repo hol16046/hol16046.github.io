@@ -1,0 +1,89 @@
+/* --------------------------------------------- */
+/* --------- Tablet View Formatting ----------- */
+/* --------------------------------------------- */
+@media only screen and (min-width: 37.5em) {
+	main {
+        display: grid;
+		grid-template-columns: 1fr 1fr;
+    }
+    
+
+    /* --------------------------------------------- */
+    /* --------- Header Formatting ----------- */
+    /* --------------------------------------------- */
+    header img {
+        width: 70%
+    }
+    #secondline {
+        white-space: pre;
+    }
+
+
+    /* ----- Main Nav Formatting ----- */
+    header nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    header nav ul {
+        display: flex;
+    }
+    header nav li {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        height: 82px;
+        border-bottom: 3px solid #636366;
+        border-right: 3px solid #636366;
+    }
+    .firstlink {    
+        padding-left: 10px;
+    }
+    .lastnavlink {
+        border-right: none;
+}
+
+    /* --------------------------------------------- */
+    /* --------- Home Page Main Content Formatting ----------- */
+    /* --------------------------------------------- */
+    .domain {
+        margin: 0;
+    }
+
+    
+    /* --------------------------------------------- */
+    /* --------- Target Audience Page Formatting ----------- */
+    /* --------------------------------------------- */
+    #target, #personahead, #scenarios {
+        grid-column: span 2;
+        margin: 0;
+    }
+    #personahead {
+        margin: 0;
+    }
+
+    /* --------------------------------------------- */
+    /* --------- Color Scheme Page Formatting ----------- */
+    /* --------------------------------------------- */
+    #colorhead {
+        grid-column: span 2;
+    }
+
+
+    /* --------------------------------------------- */
+    /* --------- Typography Page Formatting ----------- */
+    /* --------------------------------------------- */
+    .headingstyle h1 {
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+
+    /* --------------------------------------------- */
+    /* --------- Site Map Page Formatting ----------- */
+    /* --------------------------------------------- */
+    .map {
+        grid-column: span 2;
+    }
+
+
+}
