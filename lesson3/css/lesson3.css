@@ -60,8 +60,8 @@ nav {
 }
 nav ul {
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     padding: 15px 0 0 0;
 }
 nav li {
