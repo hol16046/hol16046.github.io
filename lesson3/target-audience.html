@@ -13,10 +13,12 @@
     </head>
     <body>
         <header>
-            <img src="images/seidweatherlogo-colored-large.png" alt="Southeast Idaho Weather Logo">
-            <!-- <h1>Southeast Idaho Weather</h1> -->
-            <h1>Website Planning Document <span id="secondline">by Heather Holt</span></h1>
-            <nav>
+            <div id="headerContainer">
+                <img src="images/seidweatherlogo-colored-large.png" alt="Southeast Idaho Weather Logo">
+                <!-- <h1>Southeast Idaho Weather</h1> -->
+                <h1>Website Planning Document <span id="secondline">by Heather Holt</span></h1>
+            </div>
+            <nav id="mainNav">
                 <ul>
                     <li class="firstlink" #id="purposenav"><a href="index.html">Site Purpose</a></li>
                     <li class="activelink" id="targetnav"><a href="target-audience.html">Target Audience</a></li>
@@ -66,9 +68,11 @@
             </section>
         </main>
         <footer>
-            <p>&copy; <span id="copyrightdate"></span> &nbsp; &vert; &nbsp; Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> <br>
-            This page was last updated on <span id="modifieddate"></span> <br>
-            <a href="../index.html">Return to Assignment Portal</a></p>
+            <div id="footerContent">
+                <p>&copy; <span id="copyrightdate"></span> &nbsp; &vert; &nbsp; Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> <br>
+                This page was last updated on <span id="modifieddate"></span> <br>
+                <a href="../index.html">Return to Assignment Portal</a></p>
+            </div>
         </footer>
         <script src="js/lesson3.js"></script>
     </body>
