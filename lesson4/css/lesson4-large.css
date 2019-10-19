@@ -19,6 +19,7 @@
       padding: 0;
     }
     
+    
 
     /* ----- Main Nav Formatting ----- */
     #mainNav {
@@ -67,3 +68,12 @@
 
 
   }
+
+@media only screen and (min-width: 1128px) {
+  #siteTitle {
+    font-size: 82px;
+  }
+  #tagline {
+    font-size: 40px;
+  }
+}
