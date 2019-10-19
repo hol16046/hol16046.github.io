@@ -35,6 +35,9 @@ header img {
     height: auto;
     float: right;
 }
+main ul {
+    padding-top: 15px;
+}
 
 footer {
     font-size: .85rem;
