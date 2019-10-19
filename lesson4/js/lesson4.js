@@ -27,6 +27,5 @@ function now(today) {
 	var msg = day + ', ' + date + ' ' + month + ' ' + year;
 	return msg;
 }
-
 var current = document.getElementById('currentDate');
 current.innerHTML = now(today);
