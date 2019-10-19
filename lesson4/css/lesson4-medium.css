@@ -20,13 +20,14 @@
         padding: 10px 0 0 40px;    
     }
     #headerText {
-        padding: 60px 50px 0 0;
+        padding: 10px 50px 0 0;
     }
     #siteTitle {
         display: block;
         font-size: 7.3vw;
         font-weight: 900;
         text-align: right;
+        margin: 50px 0 20px 0;
     }
     #weatherHead {
         font-family: 'Quicksand', Helvetica, sans-serif;
@@ -35,6 +36,7 @@
     #tagline {
         font-size: 3.5vw;
         text-align: right;
+        
     }
 
 
