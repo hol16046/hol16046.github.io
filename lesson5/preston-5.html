@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1">
+        <title>Preston | Southeast Idaho Weather</title>
+        <meta name="description" content="Website Planning Document site purpose description for Heather Holt in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="shortcut icon" href="../images/favicon48.png">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather%7cQuicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/lesson5.css">
+        <link rel="stylesheet" href="css/lesson5-medium.css">
+        <link rel="stylesheet" href="css/lesson5-large.css">
+    </head>
+    <body>
+        <header id="headerContainer">
+            <img id="seidlogotext" src="images/seidweatherlogo-colored-large.png" alt="Southeast Idaho Weather Logo">
+            <img id="seidsymbol" src="images/seidweathersymbol.png" alt="silhouette of Idaho">
+            <div id="headerText">
+                <h1 id="siteTitle">Southeast Idaho <span id="weatherHead">Weather</span></h1>
+                <h2 id="tagline">Keeping Our Eye <span>On The Sky</span></h2>
+            </div>
+        </header>
+        <nav id="mainNav">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li class="firstlink"><a href="#">Home</a></li>
+                <li class="activelink"><a href="preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="lastnavlink"><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="mainContent">Hero Image with Weather Summary</div>
+            <div class="mainContent" id="forecast">5 Day Forecast</div>
+            <div class="mainContent">Article</div>
+            <div class="mainContent">Contact Information</div>
+        </main>
+        <footer>
+            <div id="footerContent">
+                <p id="currentDate"></p>
+                <p>&copy; <span id="copyrightdate"></span> &nbsp; &vert; &nbsp; Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> <br>
+                This page was last updated on <span id="modifieddate"></span> <br>
+                <a href="../index.html">Return to Assignment Portal</a></p>
+            </div>
+        </footer>
+        <script src="js/lesson4.js"></script>
+    </body>
+</html>
