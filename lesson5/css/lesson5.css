@@ -104,6 +104,7 @@ nav a:hover {
     color: #FFFFFF;
 }
 nav li:hover {
+    color: #FFFFFF;
     background-color: #636366;
 }
 nav a:active {
