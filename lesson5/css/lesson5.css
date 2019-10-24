@@ -94,6 +94,11 @@ nav {
 
 
 /* ----- Link Styling ----- */
+#activelink {
+    color: #333335;
+    background-color: #d8f9e9;
+}
+
 nav a:link {
     color: #D8F9E9;
 }
@@ -109,10 +114,6 @@ nav li:hover {
 }
 nav a:active {
     color: #FFFFFF;
-}
-#activelink {
-    color: #333335;
-    background-color: #58B09C;
 }
 
 
