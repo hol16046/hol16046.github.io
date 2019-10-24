@@ -102,11 +102,12 @@ nav a:visited {
 }
 nav a:hover {
     color: #FFFFFF;
+}
+nav li:hover {
     background-color: #636366;
 }
 nav a:active {
     color: #FFFFFF;
-    background-color: #636366;
 }
 .activelink a:link {
     color: #58B09C;
@@ -116,11 +117,9 @@ nav a:active {
 }
 .activelink a:hover {
     color: #FFFFFF;
-    background-color: #636366;
 }
 .activelink a:active {
     color: #FFFFFF;
-    background-color: #636366;
 }
 
 
