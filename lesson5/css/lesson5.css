@@ -110,17 +110,17 @@ nav li:hover {
 nav a:active {
     color: #FFFFFF;
 }
-.activelink:link {
+.activelink li:link {
     color: #FFFFFF;
     background-color: #636366;
 }
-.activelink:visited {
+.activelink li:visited {
     color: #FFFFFF;
 }
-.activelink:hover {
+.activelink li:hover {
     color: #FFFFFF;
 }
-.activelink:active {
+.activelink li:active {
     color: #FFFFFF;
 }
 
