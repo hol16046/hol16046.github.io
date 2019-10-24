@@ -117,6 +117,10 @@ nav li:hover {
 nav a:active {
     color: #FFFFFF;
 }
+#activelink:hover {
+    color: #FFFFFF;
+    background-color: #333335;
+}
 
 /* --------------------------------------------- */
 /* --------- Preston Page Main Content Formatting ----------- */
