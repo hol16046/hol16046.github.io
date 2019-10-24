@@ -111,10 +111,11 @@ nav a:active {
     color: #FFFFFF;
 }
 .activelink a:link {
-    color: #58B09C;
+    color: #FFFFFF;
+    background-color: #636366;
 }
 .activelink a:visited {
-    color: #58B09C;
+    color: #FFFFFF;
 }
 .activelink a:hover {
     color: #FFFFFF;
