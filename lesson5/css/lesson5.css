@@ -110,9 +110,9 @@ nav li:hover {
 nav a:active {
     color: #FFFFFF;
 }
-.activelink {
-    color: #FFFFFF;
-    background-color: #636366;
+#activelink {
+    color: #333335;
+    background-color: #58B09C;
 }
 
 
