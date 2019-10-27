@@ -69,6 +69,7 @@ img {
 }
 iframe {
     width: 100%;
+    min-height: 340px;
 }
 
 /* Tablet View */
