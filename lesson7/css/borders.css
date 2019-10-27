@@ -89,23 +89,23 @@ div {
 #example5a {
     padding: 15px;
     border: solid 20px transparent;
-    border-image: url(border.png) 30 stretch;
+    border-image: url(https://hol16046.github.io/lesson7/images/border.png) 30 stretch;
 }
 #example5b {
     padding: 15px;
     border: solid 20px transparent;
-    border-image: url(border.png) 30 repeat;
+    border-image: url(https://hol16046.github.io/lesson7/images/border.png) 30 repeat;
 }
 #example5 {
     padding: 15px;
     border: solid 20px transparent;
-    border-image: url(border.png) 30 round;
+    border-image: url(https://hol16046.github.io/lesson7/images/border.png) 30 round;
 }
 
 #example6 {
     padding: 15px;
     border: solid 20px transparent;
-    border-image: url(border.png) 30% round;
+    border-image: url(https://hol16046.github.io/lesson7/images/border.png) 30% round;
 }
 
 #h2example1c {
