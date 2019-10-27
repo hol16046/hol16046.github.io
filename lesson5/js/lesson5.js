@@ -29,3 +29,15 @@ function now(today) {
 }
 var current = document.getElementById('currentDate');
 current.innerHTML = now(today);
+
+// Pancakes Banner
+window.onload = function pancakes() {
+	var date = new Date();
+	var banner = document.getElementById("pancakesBanner");
+	var day = date.getDay();
+	if (day == 5) {
+		banner.style.display = "block";
+	} else {
+		banner.style.display = "none";
+	}
+}

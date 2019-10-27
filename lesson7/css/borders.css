@@ -1,0 +1,143 @@
+* {
+    font-size: 40px;
+}
+h1 {
+    font-size: 55px;
+    margin-top: 40px;
+}
+h2 {
+    font-size: 50px;
+    margin-top:  80px;
+}
+div {
+    margin: 30px;
+}
+#boxmodel {
+    margin: 30px;
+    width: 500px;
+}
+.primaryheadings {
+    background-color: #015249;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    margin-top: 100px;
+}
+
+.bstyle {
+    padding: 15px;
+    border-width: 7px;
+}
+#none {
+    border-style: none;
+}
+#dashed {
+    border-style: dashed;
+}
+#dotted {
+    border-style: dotted;
+}
+#double {
+    border-style: double;
+}
+#groove {
+    border-style: groove;
+}
+#hidden {
+    border-style: hidden;
+}
+#inset {
+    border-style: inset;
+}
+#outset {
+    border-style: outset;
+}
+#ridge {
+    border-style: ridge;
+}
+#solid {
+    border-style: solid;
+}
+
+.bwidth {
+    border-style: solid;
+    border-width: 10px;
+    padding: 15px;
+}
+#example2 {
+    border-style: solid;
+    border-width: medium;
+}
+
+.bcolor {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #58B09C;
+    padding: 15px;
+}
+#example3 {
+    border-style: dashed;
+    border-width: medium;
+    border-color: forestgreen;
+}
+
+.border {
+    border: ridge 5px green;
+    padding: 15px;
+}
+
+#example5a {
+    padding: 15px;
+    border: solid 20px transparent;
+    border-image: url(images/border.png) 30 stretch;
+}
+#example5b {
+    padding: 15px;
+    border: solid 20px transparent;
+    border-image: url(images/border.png) 30 repeat;
+}
+#example5 {
+    padding: 15px;
+    border: solid 20px transparent;
+    border-image: url(images/border.png) 30 round;
+}
+
+#example6 {
+    padding: 15px;
+    border: solid 20px transparent;
+    border-image: url(images/border.png) 30% round;
+}
+
+#h2example1c {
+    background-color: lightslategray;
+    width: 160px;
+    padding: 20px;
+    border: solid medium skyblue;
+    border-radius: 20px 50px;
+}
+.roundc {
+    padding: 15px;
+    border-style: none;
+    border-width: 0px;
+}
+#example7 {
+    border-radius: 30px;
+    background-color: aquamarine;
+}
+#example7a {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #58B09C;
+}
+
+.shadows {
+    padding: 15px;
+    background-color: lightgray;
+    border: 3px solid lightblue;
+    box-shadow: 5px 5px 5px 2px #808080;
+}
+#example8 {
+    box-shadow: -3px -3px 3px darkslategray;
+    margin-bottom: 300px;
+}

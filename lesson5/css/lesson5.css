@@ -33,6 +33,28 @@ a:active{
 	color: #58B09C;
 }
 
+
+
+/* --------------------------------------------- */
+/* --------- Pancake Banner Formatting --------- */
+/* --------------------------------------------- */
+#pancakesBanner {
+    background-color: #58B09C;
+    padding: 5px;
+}
+#pancakesBanner p {
+    color: #333335;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+}
+#pancakesBanner span {
+    white-space: pre;
+}
+
+
+
+
 /* --------------------------------------------- */
 /* --------- Header Formatting ----------- */
 /* --------------------------------------------- */
@@ -136,7 +158,9 @@ main div {
     margin: 10px;
     border: 2px solid #636366;
 }
-
+#forecast {
+    display: none;
+}
 
 /* --------------------------------------------- */
 /* --------- Footer Formatting ----------- */
