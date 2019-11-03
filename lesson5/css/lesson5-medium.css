@@ -9,7 +9,7 @@
     /* --------------------------------------------- */
     #headerContainer {
         flex-direction: row;
-        margin: 10 auto;
+        margin: 10px auto;
         max-width: 900px;
     }
     #seidlogotext {
