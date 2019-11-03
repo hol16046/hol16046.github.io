@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale-1">
         <title>Preston | Southeast Idaho Weather</title>
-        <meta name="description" content="Website Planning Document site purpose description for Heather Holt in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
+        <meta name="description" content="Preston Town Page of Southeast Idaho Weather site for Heather Holt in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="shortcut icon" href="../images/favicon48.png">
         <link href="https://fonts.googleapis.com/css?family=Merriweather%7cQuicksand&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
             <ul class="navigation">
                 <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                 <li class="firstlink"><a href="#">Home</a></li>
-                <li id="activelink"><a href="preston-4.html">Preston</a></li>
+                <li id="activelink"><a href="preston-5.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -35,15 +35,74 @@
             </ul>
         </nav>
         <main>
-            <div class="mainContent">Hero Image with Weather Summary</div>
-            <div class="mainContent" id="forecast">5 Day Forecast</div>
-            <div class="mainContent">Article</div>
-            <div class="mainContent">Contact Information</div>
+            <div class="mainContent" id="hero">
+                <img id="heroImg" src="images/field.jpg" alt="Plowed Field with Mountains in Background"/>
+                <div id="summary">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <span>Sunny</span></p>
+                    <p>High: <span>53 &deg;F</span></p>
+                    <p>Wind Chill: <span>&deg;F</span></p>
+                    <p>Humidity: <span>69&percnt;</span></p>
+                    <p>Wind Speed: <span>4 mph</span></p>
+                </div>
+            </div>
+            <div class="mainContent" id="forecast">
+                <table>
+                    <thead>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="images/icons/sun.png"/></td>
+                            <td><img src="images/icons/cloudy.png"/></td>
+                            <td><img src="images/icons/partly-cloudy.png"/></td>
+                            <td><img src="images/icons/partly-rainy.png"/></td>
+                            <td><img src="images/icons/sun.png"/></td>
+                        </tr>
+                        <tr>
+                            <td>57 &deg;F</td>
+                            <td>55 &deg;F</td>
+                            <td>52 &deg;F</td>
+                            <td>53 &deg;F</td>
+                            <td>58 &deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <article class="mainContent" id="article">
+                <h3>Low Temperatures Set New Records</h3>
+                <p id="byline">By Nancy Eskelson</p>
+                <figure>
+                    <img src="images/frozen-fence.jpg" alt="Close-up of frost on fence."/>
+                    <figcaption>Close-up of frost on fencepost.</figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat commodo sed egestas egestas. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Tristique et egestas quis ipsum suspendisse ultrices. Aenean euismod elementum nisi quis eleifend quam. Nunc congue nisi vitae suscipit. Facilisis volutpat est velit egestas dui id ornare arcu odio. Curabitur vitae nunc sed velit dignissim sodales ut eu. Vitae turpis massa sed elementum tempus. Habitant morbi tristique senectus et netus et. </br> Augue ut lectus arcu bibendum at varius. Et ligula ullamcorper malesuada proin libero nunc. Libero id faucibus nisl tincidunt eget nullam. Nulla facilisi etiam dignissim diam quis. Gravida dictum fusce ut placerat orci. At risus viverra adipiscing at in tellus. Vel fringilla est ullamcorper eget nulla facilisi. Pulvinar etiam non quam lacus suspendisse faucibus. Sapien eget mi proin sed. Aliquam malesuada bibendum arcu vitae elementum curabitur. Facilisi cras fermentum odio eu feugiat pretium. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Pellentesque elit ullamcorper dignissim cras. Gravida dictum fusce ut placerat orci nulla pellentesque. Diam volutpat commodo sed egestas egestas fringilla phasellus. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Risus quis varius quam quisque id diam vel. Tincidunt eget nullam non nisi est... <a href="#">Read More</a></p>
+            </article>
         </main>
         <footer>
+            <div id="contact">
+                <div id="contactMap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4877645228735!2d-111.87577298434546!3d42.09702337920543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1572776267772!5m2!1sen!2sus"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div id="info">
+                    <h4 id="contactHeader">Southeast Idaho Weather</h4>
+                    <address>
+                        <p>30 N 1st E </br>Preston, ID 83263</p>
+                    </address>
+                    <img id="phone" src="images/phone.png" alt="Phone Icon"/>
+                    <p id="number">208.555.5555</p>
+                    </br>
+                    <img id="envelope" src="images/envelope.png" alt="Envelope Icon"/>
+                    <p id="email"><a href="mailto:#">info@seidweather.com</a></p>
+                </div>
+            </div>
             <div id="footerContent">
                 <p id="currentDate"></p>
-                <p>&copy; <span id="copyrightdate"></span> &nbsp; &vert; &nbsp; Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> <br>
+                <p>&copy; <span id="copyrightdate"></span> Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> <br>
                 This page was last updated on <span id="modifieddate"></span> <br>
                 <a href="../index.html">Return to Assignment Portal</a></p>
             </div>

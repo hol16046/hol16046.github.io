@@ -166,14 +166,50 @@ main {
     padding: 10px;
     text-align: center;
 }
-main div {
-    background-color: #d8f9e9;
-    padding: 5px;
-    margin: 10px;
-    border: 2px solid #636366;
+#hero {
+    position: relative;
+    min-height: 155px;
+}
+#heroImg {
+    width: 100%;
+}
+#summary {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #015249;
+    opacity: .9;
+    color: #D8F9E9;
+    width: 200px;
+    height: 132;
+    padding: 10px;
+    text-align: left;
+}
+#summary p {
+    margin-left: 10px;
+}
+#summary span {
+    color: #FFFFFF;
 }
 #forecast {
     display: none;
+}
+#article {
+    text-align: left;
+    margin-top: 10px;
+}
+#byline {
+    color: #015249;
+}
+#article figure {
+    float: right;
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #636366;
+}
+#article figure img {
+    width: 100%;
 }
 
 /* --------------------------------------------- */
@@ -184,7 +220,6 @@ footer {
     text-align: center;
     background-color: #015249;
     color: #D8F9E9;
-    padding: 15px;
 }
 footer a {
     color: #D8F9E9;
@@ -202,4 +237,26 @@ footer a:hover{
 }
 footer a:active{
 	color: #FFFFFF;
+}
+/* ----- Contact Info Styling ----- */
+#contact {
+    background-color: #333335;
+    padding: 20px;
+    text-align: right;
+}
+#contactMap {
+    display: none;
+}
+#contact p {
+    margin-right: 10px;
+}
+#contact img {
+    width: 13px;
+}
+#number, #email {
+    display: inline;
+}
+/* ----- Footer Info Styling ----- */
+#footerContent {
+    padding: 15px;
 }
