@@ -1,0 +1,42 @@
+* { margin: 0; box-sizing: border-box; } 
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: 'Cabin', Helvetica, sans-serif;
+    color: #2e3332;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+header, main {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1020px;
+}
+header {
+    text-align: center;
+    background-color: #2E9563;
+    color: whitesmoke;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+main img[data-src] {
+    filter: blur(0.1em);
+}
+main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

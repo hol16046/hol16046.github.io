@@ -9,13 +9,15 @@
     /* --------------------------------------------- */
     #headerContainer {
         flex-direction: row;
+        margin: 10 auto;
+        max-width: 900px;
     }
     #seidlogotext {
         display: none;
     }
     #seidsymbol {
         display: block;
-        width: 30%;
+        width: 25%;
         height: auto;
         padding: 10px 0 0 40px;    
     }
@@ -27,7 +29,7 @@
         font-size: 7.3vw;
         font-weight: 900;
         text-align: right;
-        margin: 50px 0 20px 0;
+        margin: 0 0 20px 0;
     }
     #weatherHead {
         font-family: 'Quicksand', Helvetica, sans-serif;
