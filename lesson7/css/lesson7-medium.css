@@ -1,0 +1,53 @@
+/* --------------------------------------------- */
+/* --------- Tablet View Formatting ----------- */
+/* --------------------------------------------- */
+@media only screen and (min-width: 37.5em) {
+	   
+
+    /* --------------------------------------------- */
+    /* --------- Header Formatting ----------- */
+    /* --------------------------------------------- */
+    #headerContainer {
+        flex-direction: row;
+        margin: 10 auto;
+        max-width: 900px;
+    }
+    #seidlogotext {
+        display: none;
+    }
+    #seidsymbol {
+        display: block;
+        width: 25%;
+        height: auto;
+        padding: 10px 0 0 40px;    
+    }
+    #headerText {
+        padding: 10px 50px 0 0;
+    }
+    #siteTitle {
+        display: block;
+        font-size: 7.3vw;
+        font-weight: 900;
+        text-align: right;
+        margin: 0 0 20px 0;
+    }
+    #weatherHead {
+        font-family: 'Quicksand', Helvetica, sans-serif;
+        font-weight: 200;
+    }
+    #tagline {
+        font-size: 3.5vw;
+        text-align: right;
+        
+    }
+
+
+    /* --------------------------------------------- */
+    /* --------- Preston Page Main Content Formatting ----------- */
+    /* --------------------------------------------- */
+    .domain {
+        margin: 0;
+    }
+
+
+}

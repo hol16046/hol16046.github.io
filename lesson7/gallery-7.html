@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1">
+        <title>Preston | Southeast Idaho Weather</title>
+        <meta name="description" content="Website Planning Document site purpose description for Heather Holt in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="shortcut icon" href="../images/favicon48.png">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather%7cQuicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/lesson7.css">
+        <link rel="stylesheet" href="css/lesson7-medium.css">
+        <link rel="stylesheet" href="css/lesson7-large.css">
+    </head>
+    <body>
+        <header id="headerContainer">
+            <img id="seidsymbol" src="images/seidweathersymbol.png" alt="silhouette of Idaho">
+            <div id="headerText">
+                <h1 id="siteTitle">Southeast Idaho <span id="weatherHead">Weather</span></h1>
+                <h2 id="tagline">Keeping Our Eye <span>On The Sky</span></h2>
+            </div>
+        </header>
+        <nav id="mainNav">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li class="firstlink"><a href="#">Home</a></li>
+                <li id="activelink"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="lastnavlink"><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/autumn-sunset.jpg"/>
+                <figcaption>Autumn Sunset over Idaho Mountains</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/falling-snow.jpg"/>
+                <figcaption>Falling Snow on Mountainside</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/lightning.jpg"/>
+                <figcaption>Lightning Over City</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/inversion.jpg"/>
+                <figcaption>Inversion Seen from Hilltop</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/mountain-lake.jpg"/>
+                <figcaption>Clouds Over Mountain Lake</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/frozen-fence.jpg"/>
+                <figcaption>Close-up of Frost on Fence</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/sunny.jpg"/>
+                <figcaption>Summer Day in Rural Idaho</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/frozen-pond.jpg"/>
+                <figcaption>Frozen Pond</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/sunset.jpg"/>
+                <figcaption>Ominous Sunset</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/distant-lightning.jpg"/>
+                <figcaption>Distant Lightning Over Mountains</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/wet-road.jpg"/>
+                <figcaption>Rainy Road Between Pines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery/placeholder.jpg" data-src="images/gallery/foggy-reservoir.jpg"/>
+                <figcaption>Morning Fog at Reservoir</figcaption>
+            </figure>
+        </main>
+        <footer>
+            <div id="footerContent">
+                <p id="currentDate"></p>
+                <p>&copy; <span id="copyrightdate"></span> &nbsp; &vert; &nbsp; Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> <br>
+                This page was last updated on <span id="modifieddate"></span> <br>
+                <a href="../index.html">Return to Assignment Portal</a></p>
+            </div>
+        </footer>
+        <script src="js/lesson7.js"></script>
+    </body>
+</html>
