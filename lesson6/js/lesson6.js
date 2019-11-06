@@ -4,18 +4,15 @@ var year = d.getFullYear();
 document.getElementById("copyrightdate").textContent = year;
 
 // Get last modified date of current document.
-
 var lastmod = document.lastModified;
 document.getElementById("modifieddate").textContent = lastmod;
 
 // Responsive Menu
-
 function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
 // Get Current Date
-
 var today = new Date();
 function now(today) {
 	dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -31,7 +28,7 @@ var current = document.getElementById('currentDate');
 current.innerHTML = now(today);
 
 // Pancakes Banner
-window.onload = function pancakes() {
+function pancakes() {
 	var date = new Date();
 	var banner = document.getElementById("pancakesBanner");
 	var day = date.getDay();

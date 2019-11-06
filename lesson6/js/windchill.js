@@ -9,7 +9,7 @@ function windChill(t, s) {
     }
 }
 
-window.onload = function compute() {
+function compute() {
     // Get the values.
     var tempF = parseFloat(document.getElementById('temp').textContent);
     var speed = parseFloat(document.getElementById('wind').textContent);
