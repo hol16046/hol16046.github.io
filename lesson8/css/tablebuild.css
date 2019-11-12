@@ -8,6 +8,10 @@ body {
     font-size: 20px;
 }
 
+table {
+    box-shadow: 10px 10px 15px #628CA6;
+}
+
 table, th, td {
     border: 1px solid #BBBBBB;
     border-collapse: collapse;
