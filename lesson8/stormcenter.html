@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1">
+        <title>Storm Center | Southeast Idaho Weather</title>
+        <meta name="description" content="Storm Center page of Southeast Idaho Weather site for Heather Holt in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="shortcut icon" href="../images/favicon48.png">
+        <link rel="stylesheet" href="css/lesson8.css">
+        <link rel="stylesheet" href="css/lesson8-medium.css">
+        <link rel="stylesheet" href="css/lesson8-large.css">
+    </head>
+    <body>
+        <header id="headerContainer">
+            <img id="seidsymbol" src="images/seidweathersymbol.png" alt="silhouette of Idaho">
+            <div id="headerText">
+                <h1 id="siteTitle">Southeast Idaho <span id="weatherHead">Weather</span></h1>
+                <h2 id="tagline">Keeping Our Eye <span>On The Sky</span></h2>
+            </div>
+        </header>
+        <nav id="mainNav">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li class="firstlink"><a href="#">Home</a></li>
+                <li><a href="../lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li id="activelink"><a href="#">Storm Center</a></li>
+                <li class="lastnavlink"><a href="../lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            
+        </main>
+        <footer>
+            <div id="contact">
+                <div id="contactMap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4877645228735!2d-111.87577298434546!3d42.09702337920543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1572776267772!5m2!1sen!2sus" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div id="info">
+                    <h4 id="contactHeader">Southeast Idaho Weather</h4>
+                    <address>
+                        <p>30 N 1st E <br>Preston, ID 83263</p>
+                    </address>
+                    <img id="phone" src="images/phone.png" alt="Phone Icon"/>
+                    <p id="number">208.555.5555</p>
+                    <br>
+                    <img id="envelope" src="images/envelope.png" alt="Envelope Icon"/>
+                    <p id="email"><a href="mailto:#">info@seidweather.com</a></p>
+                </div>
+            </div>
+            <div id="footerContent">
+                <p id="currentDate"></p>
+                <p>&copy; <span id="copyrightdate"></span> Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> <br>
+                This page was last updated on <span id="modifieddate"></span> <br>
+                <a href="../index.html">Return to Assignment Portal</a></p>
+            </div>
+        </footer>
+        <script src="js/lesson8.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fontloader.js"></script>
+    </body>
+</html>
