@@ -26,12 +26,82 @@
                 <li><a href="../lesson6/preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
-                <li id="activelink"><a href="#">Storm Center</a></li>
+                <li id="activelink"><a href="stormcenter.html">Storm Center</a></li>
                 <li class="lastnavlink"><a href="../lesson7/gallery-7.html">Gallery</a></li>
             </ul>
         </nav>
         <main>
-            
+            <h2>Storm Center</h2>
+            <h3 id="reportHeading">Report a Storm in Your Area</h3>
+            <form id="stormInfo" method="GET" action="thanks.html">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <label class="inputLabel">
+                        Full Name: *<br>
+                        <input type="text" name="fullName" pattern="[A-Za-z]{2,}+\s{1} [a-zA-Z]{3}" placeholder="Bob Moser" required="required">
+                    </label>
+                    <label class="inputLabel">
+                        Email:<br>
+                        <input type="email" name="email" placeholder="youremail@gmail.com">
+                    </label>
+                    <label class="inputLabel">
+                        Phone Number: *<br>
+                        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="208-555-2468" required="required">
+                    </label>
+                    <label class="inputLabel">
+                        Zip Code: *<br>
+                        <input type="number" name="zip" pattern="[0-9] {5}" placeholder="83263" required="required">
+                    </label>
+                    <div id="requiredFields">
+                        <p>*Required fields</p>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Details</legend>
+                    <label class="inputLabel">
+                        Storm Date: <br>
+                        <input type="date" name="date">
+                    </label>
+                    <label class="inputLabel">
+                        Storm Type:<br>
+                        <input list="storms" name="types" placeholder="Choose from List">
+                        <datalist id="storms">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+                        </datalist>
+                    </label>
+                    <label class="inputLabel" for="severity">
+                        Storm Severity (1 to 10): <span id="currentLevel">5</span> <br>
+                        <input type="range" name="severity" value="5" min="0" max="10" step="1" oninput="changeRating(this.value)" onchange="changeRating(this.value)">
+                    </label>
+                    <label class="inputLabel">
+                        Storm Region:<br>
+                        <select name="region">
+                            <option disabled="disabled" selected>Select Region...</option>
+                            <option value="preston">Preston</option>
+                            <option value="soda">Soda Springs</option>
+                            <option value="haven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <label class="inputLabel">
+                        Were You In Danger?<br>
+                        <input type="radio" name="danger" value="yes"> <div class="radioLabel">Yes</div>
+                        <input type="radio" name="danger" value="no"> <div class="radioLabel">No</div>
+                        <input type="radio" name="danger" value="maybe"> <div class="radioLabel">Maybe</div>
+                    </label>
+                    <label class="inputLabel">
+                        Additional Information:<br>
+                        <textarea name="comment" form="stormInfo">Enter text here...
+                        </textarea>
+                    </label>
+                    <label class="inputLabel">
+                        <input type="submit" name="submit" value="Submit Storm Report">
+                    </label>
+                </fieldset>
+            </form>
         </main>
         <footer>
             <div id="contact">

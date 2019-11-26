@@ -43,29 +43,10 @@
 
 
     /* --------------------------------------------- */
-    /* --------- Preston Page Main Content Formatting ----------- */
+    /* --------- Storm Center Page Main Content Formatting ----------- */
     /* --------------------------------------------- */
-    #forecast {
-        display: block;
-        margin: 15px auto;
-        padding: 10px;
-        width: 75%;
-        background-color: #333335;
-        color: #D8F9E9;
-        border: solid 2px #D8F9E9;
-    }
-    table {
-        width: 100%;
-    }
-    th {
-        font-family: 'Merriweather', 'Times New Roman', Times, serif;
-        font-size: 18px;
-    }
-    table img {
-        width: 100%;
-    }
-    #article figure {
-        width: 40%;
+    form {
+        max-width: 600px;
     }
 
     /* --------------------------------------------- */

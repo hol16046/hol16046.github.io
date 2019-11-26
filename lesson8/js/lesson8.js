@@ -27,3 +27,6 @@ function now(today) {
 var current = document.getElementById('currentDate');
 current.innerHTML = now(today);
 
+function changeRating(level) {
+    document.getElementById("currentLevel").innerHTML = level;
+}

@@ -157,7 +157,7 @@ nav a:active {
 }
 
 /* --------------------------------------------- */
-/* --------- Preston Page Main Content Formatting ----------- */
+/* --------- Storm Center Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
 main {
     max-width: 1020px;
@@ -165,51 +165,64 @@ main {
     padding: 10px;
     text-align: center;
 }
-#hero {
-    position: relative;
-    min-height: 155px;
+#reportHeading {
+    font-family: 'Quicksand', Helvetica, sans-serif;
 }
-#heroImg {
+fieldset {
+    margin: 15px;
+    text-align: left;
+    display: flex;
+}
+legend {
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0 5px;
+    padding: 0 10px;
+}
+label {
+    margin-top: 15px;
+}
+input, select, textarea {
+    padding: 5px;
     width: 100%;
-}
-#summary {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: #015249;
-    opacity: .9;
-    color: #D8F9E9;
-    width: 220px;
-    height: 135px;
-    padding: 10px;
-    text-align: left;
-}
-#summary p {
-    margin-left: 10px;
-}
-#summary span {
-    color: #FFFFFF;
-}
-#forecast {
-    display: none;
-}
-#article {
-    text-align: left;
     margin-top: 10px;
 }
-#byline {
-    color: #015249;
+input[type="radio"] {
+    width: 13px;
+    margin-left: 10px;
+} 
+textarea {
+    height: 100px;
 }
-#article figure {
-    float: right;
-    width: 60%;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #636366;
+#currentLevel {
+    margin-left: 10px;
+    color: #2e3332;
 }
-#article figure img {
-    width: 100%;
+#requiredFields {
+    margin: 10px;
+    font-size: .75rem;
 }
+.inputLabel  {
+    color: #218681;
+}
+.radioLabel {
+    color: #2e3332;
+    display: inline-block;
+}
+
+
+/* --------------------------------------------- */
+/* --------- Thanks Page Formatting ----------- */
+/* --------------------------------------------- */
+#thanks {
+    font-size: 3vw;
+}
+#thanksImg {
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+
 
 /* --------------------------------------------- */
 /* --------- Footer Formatting ----------- */
