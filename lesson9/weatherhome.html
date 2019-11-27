@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale-1">
-        <title>Thank You! | Southeast Idaho Weather</title>
-        <meta name="description" content="Storm Center page of Southeast Idaho Weather site for Heather Holt in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
+        <title>Home | Southeast Idaho Weather</title>
+        <meta name="description" content="Southeast Idaho Weather Home Page for Heather Holt in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="shortcut icon" href="../images/favicon48.png">
-        <link rel="stylesheet" href="css/lesson8.css">
-        <link rel="stylesheet" href="css/lesson8-medium.css">
-        <link rel="stylesheet" href="css/lesson8-large.css">
+        <link rel="stylesheet" href="css/lesson9.css">
+        <link rel="stylesheet" href="css/lesson9-medium.css">
+        <link rel="stylesheet" href="css/lesson9-large.css">
     </head>
     <body>
         <header id="headerContainer">
@@ -22,18 +22,25 @@
         <nav id="mainNav">
             <ul class="navigation">
                 <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li class="firstlink"><a href="#">Home</a></li>
-                <li><a href="../lesson6/preston-6.html">Preston</a></li>
+                <li class="firstlink"><a href="weatherhome.html">Home</a></li>
+                <li id="activelink"><a href="../lesson6/preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
-                <li id="activelink"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
                 <li class="lastnavlink"><a href="../lesson7/gallery-7.html">Gallery</a></li>
             </ul>
         </nav>
         <main>
-            <p id="thanks">Thank you for your submission!</p>
-            <img id="thanksImg" src="images/brewing.jpg" alt="Storm Clouds above fields" sizes="60vw"
-                srcset="images/brewing-small.jpg 400w,images/brewing-med.jpg 600w, images/brewing-large.jpg 900w"/>
+            <article class="mainContent" id="article">
+                <h3>Thanksgiving Weather Warning</h3>
+                <p id="byline">By Staff</p>
+                <figure>
+                    <img src="images/snowy-road.jpg" alt="Snow covered road."/>
+                    <figcaption>Snow covered road.</figcaption>
+                </figure>
+                <p>A winter storm warning is in effect for Southeastern Idaho until 5 AM MST on Thursday. Snow accumulations of 3 to 6 inches are expected in towns and on roads throughtout this region. Higher elevations are expected to receive 8 to 12 inches of snow. Wind gusts of 35+ mph will reduce driving visibility due to blowing and drifting snow. Holiday travel will be impacted, please exercise caution. If you are unaccustomed to driving in snow, we recommend this advice from @moorememesandjokes on Twitter. "Just pretend you're taking your grandma to church. There's a platter of biscuits and 2 gallons of sweet tea in glass jars in the back seat. She's wearing a new dress and holding a crock pot full of gravy." Have a wonderful and safe holiday!</p>
+            </article>
+            <div class="cards">  </div>
         </main>
         <footer>
             <div id="contact">
@@ -54,12 +61,13 @@
             </div>
             <div id="footerContent">
                 <p id="currentDate"></p>
-                <p>&copy; <span id="copyrightdate"></span> Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> &nbsp; &vert;&nbsp; <a href="../termsofuse.html" target="_blank">Terms of Use</a><br>
+                <p>&copy; <span id="copyrightdate"></span> Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> &nbsp; &vert; &nbsp; <a href="../termsofuse.html" target="_blank">Terms of Use</a> <br>
                 This page was last updated on <span id="modifieddate"></span> <br>
                 <a href="../index.html">Return to Assignment Portal</a></p>
             </div>
         </footer>
-        <script src="js/lesson8.js"></script>
+        <script src="js/dates.js"></script>
+        <script src="js/home.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="js/fontloader.js"></script>
     </body>

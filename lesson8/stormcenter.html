@@ -22,7 +22,7 @@
         <nav id="mainNav">
             <ul class="navigation">
                 <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li class="firstlink"><a href="#">Home</a></li>
+                <li class="firstlink"><a href="../lesson9/weatherhome.html">Home</a></li>
                 <li><a href="../lesson6/preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
@@ -38,7 +38,7 @@
                     <legend>Your Information</legend>
                     <label class="inputLabel">
                         Full Name: *<br>
-                        <input type="text" name="fullName" pattern="[A-Za-z]{2,}+\s{1} [a-zA-Z]{3}" placeholder="Bob Moser" required="required">
+                        <input type="text" name="fullName" pattern="[A-Za-z]{2,}+\s{1} [a-zA-Z]{3}" placeholder="Bob Moser" required="required" autofocus>
                     </label>
                     <label class="inputLabel">
                         Email:<br>
@@ -50,7 +50,7 @@
                     </label>
                     <label class="inputLabel">
                         Zip Code: *<br>
-                        <input type="number" name="zip" pattern="[0-9] {5}" placeholder="83263" required="required">
+                        <input type="number" name="zip" placeholder="83263" required="required">
                     </label>
                     <div id="requiredFields">
                         <p>*Required fields</p>
@@ -75,7 +75,7 @@
                     </label>
                     <label class="inputLabel" for="severity">
                         Storm Severity (1 to 10): <span id="currentLevel">5</span> <br>
-                        <input type="range" name="severity" value="5" min="0" max="10" step="1" oninput="changeRating(this.value)" onchange="changeRating(this.value)">
+                        <input type="range" id="severity" name="severity" value="5" min="0" max="10" step="1" oninput="changeRating(this.value)" onchange="changeRating(this.value)">
                     </label>
                     <label class="inputLabel">
                         Storm Region:<br>
@@ -88,9 +88,13 @@
                     </label>
                     <label class="inputLabel">
                         Were You In Danger?<br>
-                        <input type="radio" name="danger" value="yes"> <div class="radioLabel">Yes</div>
-                        <input type="radio" name="danger" value="no"> <div class="radioLabel">No</div>
-                        <input type="radio" name="danger" value="maybe"> <div class="radioLabel">Maybe</div>
+                        <input type="radio" name="danger" value="yes"> <span class="radioLabel">Yes</span>
+                    </label>
+                    <label class="inputLabel">
+                        <input type="radio" name="danger" value="no"> <span class="radioLabel">No</span>
+                    </label>
+                    <label class="inputLabel">
+                        <input type="radio" name="danger" value="maybe"> <span class="radioLabel">Maybe</span>
                     </label>
                     <label class="inputLabel">
                         Additional Information:<br>
@@ -122,7 +126,7 @@
             </div>
             <div id="footerContent">
                 <p id="currentDate"></p>
-                <p>&copy; <span id="copyrightdate"></span> Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> <br>
+                <p>&copy; <span id="copyrightdate"></span> Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a> &nbsp; &vert;&nbsp; <a href="../termsofuse.html" target="_blank">Terms of Use</a> <br>
                 This page was last updated on <span id="modifieddate"></span> <br>
                 <a href="../index.html">Return to Assignment Portal</a></p>
             </div>
