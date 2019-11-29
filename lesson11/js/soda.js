@@ -1,4 +1,4 @@
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=05b93bf3cf5cea8551a4a182b8781249';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=05b93bf3cf5cea8551a4a182b8781249';
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -11,7 +11,7 @@ fetch(apiURL)
         document.getElementById('humid').textContent = jsObject.main.humidity;
     })
 
-const apiURLforecast = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=05b93bf3cf5cea8551a4a182b8781249';
+const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=05b93bf3cf5cea8551a4a182b8781249';
 
 fetch(apiURLforecast)
     .then((response) => response.json())
