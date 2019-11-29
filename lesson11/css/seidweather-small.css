@@ -401,6 +401,9 @@ footer a:active{
     padding: 20px;
     text-align: right;
 }
+#contactHeader {
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+}
 #contactMap {
     display: none;
 }
