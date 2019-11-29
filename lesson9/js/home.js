@@ -20,7 +20,6 @@ fetch(requestURL)
                 let rain = document.createElement('p');
                 let townImg = document.createElement('img');
 
-                card.setAttribute('class', i)
                 text.setAttribute('class', 'text')
                 h3.textContent = towns[i].name;
                 tagline.textContent = towns[i].motto;

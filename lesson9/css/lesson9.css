@@ -157,9 +157,8 @@ main {
     color: #015249;
 }
 #article figure {
-    float: right;
-    width: 60%;
-    margin: 5px;
+    width: 100%;
+    margin: 10px auto;
     padding: 5px;
     border: 1px solid #636366;
 }
