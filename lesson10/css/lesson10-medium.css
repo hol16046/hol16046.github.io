@@ -3,6 +3,12 @@
 /* --------------------------------------------- */
 @media only screen and (min-width: 37.5em) {
 	   
+    /* --------------------------------------------- */
+    /* --------- Pancake Banner Formatting --------- */
+    /* --------------------------------------------- */
+    #pancakesBanner span {
+        white-space: pre;
+    }
 
     /* --------------------------------------------- */
     /* --------- Header Formatting ----------- */
@@ -48,27 +54,42 @@
     #forecast {
         display: block;
         margin: 15px auto;
-        padding: 10px;
+        padding: 10px 10px 20px 10px;
         width: 75%;
-        background-color: #333335;
-        color: #D8F9E9;
-        border: solid 2px #D8F9E9;
-
-        border: 1px solid #636366;
-        box-shadow: 0px 0px 10px #333335;
+        color: #333335;
+    }
+    #forecastHeading {
+        margin-bottom: 15px;
+        color: #218681;
     }
     table {
         width: 100%;
+        border-collapse: collapse;
+        box-shadow: 5px 5px 20px #636366;
+    }
+    table, th, td {
+        border: 1px solid #636366;
+        background-color: #58B09C;
     }
     th {
         font-family: 'Merriweather', 'Times New Roman', Times, serif;
         font-size: 18px;
+        background-color: #333335;
+        color: #D8F9E9;
+        padding: 5px;
     }
     table img {
-        width: 100%;
+        width: 75%;
     }
     #article figure {
         width: 40%;
+    }
+    #temps td {
+        border-top: none;
+        padding-bottom: 5px;
+    }
+    #icons td {
+        border-bottom: none;
     }
 
     /* --------------------------------------------- */
