@@ -233,6 +233,7 @@ main {
 }
 #heroImg {
     width: 100%;
+    padding-bottom: 10px;
 }
 #summary {
     position: absolute;
@@ -243,7 +244,6 @@ main {
     color: #D8F9E9;
     padding: 10px;
     text-align: left;
-    margin-bottom: 10px;
 }
 #summary p {
     margin-left: 10px;
