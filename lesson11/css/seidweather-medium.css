@@ -1,0 +1,192 @@
+/* --------------------------------------------- */
+/* --------- Tablet View Formatting ----------- */
+/* --------------------------------------------- */
+@media only screen and (min-width: 37.5em) {
+	   
+
+    /* --------------------------------------------- */
+    /* --------- Pancake Banner Formatting --------- */
+    /* --------------------------------------------- */
+    #pancakesBanner span {
+        white-space: pre;
+    }
+
+
+    /* --------------------------------------------- */
+    /* --------- Header Formatting ----------- */
+    /* --------------------------------------------- */
+    #headerContainer {
+        flex-direction: row;
+        margin: 10px auto;
+        max-width: 900px;
+    }
+    #seidlogotext {
+        display: none;
+    }
+    #seidsymbol {
+        display: block;
+        width: 25%;
+        height: auto;
+        padding: 10px 0 0 40px;    
+    }
+    #headerText {
+        padding: 10px 50px 0 0;
+    }
+    #siteTitle {
+        display: block;
+        font-size: 7.3vw;
+        font-weight: 900;
+        text-align: right;
+        margin: 0 0 20px 0;
+    }
+    #weatherHead {
+        font-family: 'Quicksand', Helvetica, sans-serif;
+        font-weight: 200;
+    }
+    #tagline {
+        font-size: 3.5vw;
+        text-align: right;
+        
+    }
+
+
+    /* --------------------------------------------- */
+    /* --------- Home Page Main Content Formatting ----------- */
+    /* --------------------------------------------- */
+    main {
+        max-width: 1020px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    #article {
+        text-align: left;
+        margin-top: 10px;
+    }
+    #byline {
+        color: #015249;
+    }
+    #article figure {
+        float: right;
+        width: 60%;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid #636366;
+    }
+    #article figure img {
+        width: 100%;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cards section {
+        width: 100%;
+        margin-top: 30px;
+        background-color: #333335;
+        color: #D8F9E9;
+        padding: 20px;
+        border: 1px solid #636366;
+        box-shadow: 0px 0px 10px #333335;
+        display: flex;
+        vertical-align: middle;
+        justify-content: space-evenly;
+    }
+    .cards section img {
+        margin-top: 0;
+        width: 100%;
+        border: 1px solid #636366;
+        max-width: 33%;
+    }
+    .cards p {
+        font-size: 20px;
+    }
+    .tagline {
+        margin: 5px;
+        font-style: italic;
+    }
+    .cards section:nth-child(3) {
+        margin-bottom: 20px;
+    }
+    .text {
+        margin: auto;
+        flex-grow: 2;
+    }
+    .cards section:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+    
+
+    /* --------------------------------------------- */
+    /* --------- Town Page Main Content Formatting ----------- */
+    /* --------------------------------------------- */
+    #forecast {
+        display: block;
+        margin: 15px auto;
+        padding: 10px 10px 20px 10px;
+        width: 75%;
+        color: #333335;
+    }
+    #forecastHeading {
+        margin-bottom: 15px;
+        color: #218681;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 5px 5px 20px #636366;
+    }
+    table, th, td {
+        border: 1px solid #636366;
+        background-color: #58B09C;
+    }
+    th {
+        font-family: 'Merriweather', 'Times New Roman', Times, serif;
+        font-size: 18px;
+        background-color: #333335;
+        color: #D8F9E9;
+        padding: 5px;
+    }
+    table img {
+        width: 75%;
+    }
+    #article figure {
+        width: 40%;
+    }
+    #temps td {
+        border-top: none;
+        padding-bottom: 5px;
+    }
+    #icons td {
+        border-bottom: none;
+    }
+
+    /* --------------------------------------------- */
+    /* --------- Storm Center Page Main Content Formatting ----------- */
+    /* --------------------------------------------- */
+    form {
+        max-width: 600px;
+    }
+    
+
+    /* --------------------------------------------- */
+    /* --------- Footer Formatting ----------- */
+    /* --------------------------------------------- */
+    footer {
+        padding-top: 0;
+    }
+    /* ----- Contact Info Styling ----- */
+    #contact {
+        min-height: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    #contactMap {
+        display: block;
+        height: 130px;
+        float: left;
+    }
+
+
+}

@@ -1,0 +1,171 @@
+/* --------------------------------------------- */
+/* ---------Desktop View Formatting ----------- */
+/* --------------------------------------------- */
+@media only screen and (min-width: 60em) {
+    header, main, footer {
+      margin: 1.25rem auto;
+      padding: 1em;
+      max-width: none;
+    }
+    #headerContainer, #mainNav ul, main, #footerContent {
+      max-width: 1020px;
+    }
+
+
+    /* --------------------------------------------- */
+    /* --------- Header Formatting ----------- */
+    /* --------------------------------------------- */
+    #headerContainer {
+      margin: 0 auto;
+      padding: 0;
+    }
+    #siteTitle {
+      font-size: 65px;
+    }
+    #tagline {
+      font-size: 35px;
+    }
+    
+
+    /* ----- Main Nav Formatting ----- */
+    #mainNav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #015249;
+      margin: 0;
+      padding: 0;
+      height: 82px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 82px;
+    }
+    .navigation li {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        height: 82px;
+        border-top: 3px solid #636366;
+        border-bottom: 3px solid #636366;
+        border-right: 3px solid #636366;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+    .firstlink {    
+      border-left: 3px solid #636366;
+    }
+    .lastnavlink {
+        border-right: none;
+    }
+
+
+    /* ----- Link Styling ----- */
+
+
+    /* --------------------------------------------- */
+    /* --------- Home Page Main Content Formatting ----------- */
+    /* --------------------------------------------- */
+    main {
+      max-width: 1020px;
+      margin: 10px auto;
+      padding: 10px;
+      text-align: center;
+    }
+    #article {
+        text-align: left;
+        margin-top: 10px;
+    }
+    #byline {
+        color: #015249;
+    }
+    #article figure {
+        float: right;
+        width: 60%;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid #636366;
+    }
+    #article figure img {
+        width: 100%;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .cards section {
+        width: 100%;
+        margin-top: 30px;
+        background-color: #333335;
+        color: #D8F9E9;
+        padding: 20px;
+        border: 1px solid #636366;
+        box-shadow: 0px 0px 10px #333335;
+        flex-direction: column;
+        vertical-align: baseline;
+    }
+    .cards section img {
+        width: 100%;
+        margin: 15px auto 0 auto;
+        border: 1px solid #636366;
+        max-width: 100%
+    }
+    .cards p {
+        font-size: 20px;
+    }
+    .tagline {
+        margin: 5px;
+        font-style: italic;
+    }
+    .cards section:nth-child(3) {
+        margin-bottom: 0px;
+    }
+    .cards section:nth-child(2) {
+    flex-direction: column;
+    }
+
+
+    /* --------------------------------------------- */
+    /* --------- Town Page Main Content Formatting ----------- */
+    /* --------------------------------------------- */
+    #article figure {
+        width: 30%;
+    }
+
+
+    /* --------------------------------------------- */
+    /* --------- Gallery Page Main Content Formatting ----------- */
+    /* --------------------------------------------- */
+    #galleryMain {
+        margin: 0 auto;
+    }
+    figure:hover {
+        box-shadow: 3px 3px 10px 2px #636366;
+    }
+
+
+    /* --------------------------------------------- */
+    /* --------- Footer Formatting ----------- */
+    /* --------------------------------------------- */
+    footer {
+      padding: 0;
+      max-width: 1020px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1128px) {
+    #siteTitle {
+    font-size: 65px;
+    }
+    #tagline {
+    font-size: 35px;
+    }
+}
