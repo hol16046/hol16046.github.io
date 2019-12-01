@@ -184,7 +184,6 @@ figcaption {
 }
 article {
     clear: right;
-    overflow: auto;
 }
 .cards {
     display: grid;
