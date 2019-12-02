@@ -256,6 +256,26 @@ main {
 #forecast {
     display: none;
 }
+#eventsHeading {
+    margin-bottom: 15px;
+    color: #218681;
+}
+#events {
+    color: #333335;
+}
+#eventsList {
+    padding: 10px;
+    margin: 0 auto 30px auto;
+    background-color: #58B09C;
+    width: 100%;
+    border: 1px solid #636366;
+    box-shadow: 5px 5px 20px #636366;
+}
+#eventsList li {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
 #article {
     text-align: left;
     margin-top: 10px;

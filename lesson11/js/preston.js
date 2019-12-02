@@ -73,3 +73,25 @@ fetch(apiURLforecast)
     document.getElementById('day3').textContent = third;
     document.getElementById('day4').textContent = fourth;
     document.getElementById('day5').textContent = fifth;
+
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(requestURL)
+.then(function (response) {
+    return response.json();
+})
+.then(function (jsonObject) {
+    console.table(jsonObject); //temporary checking for valid response and data parsing
+
+    const towns = jsonObject['towns'];
+    for (let i = 0; i < towns.length; i++) {
+        if(towns[i].name.includes('Preston')) {
+            for (let x = 0; x < towns[i].events.length; x++) {
+                let event = document.createElement('li');
+                event.setAttribute('class', 'event')
+                event.textContent = towns[i].events[x];
+                document.getElementById('eventsList').appendChild(event);
+            }
+        }
+    }
+});

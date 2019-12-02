@@ -162,6 +162,9 @@
     #icons td {
         border-bottom: none;
     }
+    #eventsList {
+        width: 70%;
+    }
 
     /* --------------------------------------------- */
     /* --------- Storm Center Page Main Content Formatting ----------- */

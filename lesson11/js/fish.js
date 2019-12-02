@@ -1,9 +1,9 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=05b93bf3cf5cea8551a4a182b8781249';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=42.0372&lon=111.3960&units=imperial&APPID=05b93bf3cf5cea8551a4a182b8781249';
 
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        // console.log(jsObject);
 
         document.getElementById('temp').textContent = jsObject.main.temp.toFixed(0);
         document.getElementById('condition').textContent = jsObject.weather[0].description;
@@ -11,12 +11,12 @@ fetch(apiURL)
         document.getElementById('humid').textContent = jsObject.main.humidity;
     })
 
-const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=05b93bf3cf5cea8551a4a182b8781249';
+const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=42.0372&lon=111.3960&units=imperial&APPID=05b93bf3cf5cea8551a4a182b8781249';
 
 fetch(apiURLforecast)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        // console.log(jsObject);
 
         var num = 1;
 
@@ -32,7 +32,7 @@ fetch(apiURLforecast)
         }
 
     })
-    
+
     var days = new Array(14);
     days[0] = "Sun";
     days[1] = "Mon";
@@ -60,3 +60,25 @@ fetch(apiURLforecast)
     document.getElementById('day3').textContent = third;
     document.getElementById('day4').textContent = fourth;
     document.getElementById('day5').textContent = fifth;
+
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(requestURL)
+.then(function (response) {
+    return response.json();
+})
+.then(function (jsonObject) {
+    console.table(jsonObject); //temporary checking for valid response and data parsing
+
+    const towns = jsonObject['towns'];
+    for (let i = 0; i < towns.length; i++) {
+        if(towns[i].name.includes('Fish Haven')) {
+            for (let x = 0; x < towns[i].events.length; x++) {
+                let event = document.createElement('li');
+                event.setAttribute('class', 'event')
+                event.textContent = towns[i].events[x];
+                document.getElementById('eventsList').appendChild(event);
+            }
+        }
+    }
+});
