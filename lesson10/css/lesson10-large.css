@@ -10,7 +10,7 @@
     #headerContainer, #mainNav ul, main, #footerContent {
       max-width: 1020px;
     }
-
+    
 
     /* --------------------------------------------- */
     /* --------- Header Formatting ----------- */
@@ -71,8 +71,16 @@
     /* --------------------------------------------- */
     /* --------- Preston Page Main Content Formatting ----------- */
     /* --------------------------------------------- */
+    article {
+      margin: 10px;
+    }
+
     #article figure {
       width: 30%;
+      padding: 5px;
+      margin: 5px;
+      float: right;
+      clear: right;
     }
 
     /* --------------------------------------------- */

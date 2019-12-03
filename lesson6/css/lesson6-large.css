@@ -74,6 +74,9 @@
     #article figure {
       width: 30%;
     }
+    article {
+      margin: 10px;
+    }
 
     /* --------------------------------------------- */
     /* --------- Footer Formatting ----------- */
