@@ -1,0 +1,65 @@
+* { margin: 0; box-sizing: border-box; } 
+
+.resources body { 
+    font-size: 20px; 
+    line-height: 32px;
+    font-family: $sans;
+    color: #333335;
+}
+
+.resources h1, .resources h2, .resources h3, .resources h4, .resources h5, .resources h6 {
+    font-family: $serif;
+    letter-spacing: .05em;
+}
+
+.resources h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.resources h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+.resources header, .resources main, .resources footer {
+    margin: 1.25rem auto;
+    padding: 1em;
+    max-width: 900px;
+}
+
+.resources header, .resources footer, .resources footer a {
+    text-align: center;
+    background-color: #044763;
+    color: whitesmoke;
+}
+
+.resources header img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+.resources li {
+    font-family: $sans;
+    font-size: 20px;
+}
+
+.resources footer {
+    font-size: 1rem;
+    font-family: $sans;
+}
+
+.resources li a {
+    color: #047BA0;
+    text-decoration: none;
+}
+.resources li a:link {
+    color: #047BA0;
+    text-decoration: none;
+}
+.resources li a:visited {
+    color: #047BA0;
+    text-decoration: none;
+}

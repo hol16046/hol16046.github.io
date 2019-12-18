@@ -1,0 +1,243 @@
+/* --------------------------------------------- */
+/* --------- Page Formatting ----------- */
+/* --------------------------------------------- */
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: $sans;
+    font-weight: bold;
+    color: #2e3332;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $serif;
+}
+
+/* Non-Navigational Link Styles */
+a {
+	text-decoration: none;
+}
+a:link{
+	color: $medBlue;
+}
+a:visited{
+	color: $darkBlue;
+}
+a:hover{
+	color: $brightBlue;
+}
+a:active{
+	color: $medBlue;
+}
+
+/* --------------------------------------------- */
+/* --------- Header Formatting ----------- */
+/* --------------------------------------------- */
+header {
+    text-align: center;
+}
+h1 {
+    color: #333335;
+}
+#headerContainer {
+    display: flex;
+    margin: 20px 40px;
+    height: 235px;
+}
+
+/* ----- Logo/Tagline Formatting ----- */
+#logo {
+    width: 30%;
+    height: auto;
+    max-height: 225px;
+    max-width: 190px;
+    margin: auto;
+}
+#headerText {
+    width: 100%;
+    margin: 35px 0;
+    vertical-align: middle;
+}
+#siteTitle {
+    display: block;
+    font-size: 9vw;
+    font-weight: 900;
+    text-align: right;
+    margin: 10px 20px 10px 0px;
+}
+#suites {
+    white-space: pre;
+}
+#tagline {
+    font-size: 5vw;
+    color: #218681
+}
+#tagline span {
+    white-space: pre;
+}
+
+/* ----- Main Nav Formatting ----- */
+
+$content-width: 1020px;
+$breakpoint: 60em;
+$nav-height: 70px;
+$gray: #333335;
+$lightGray: #EEEEEE;
+$brightBlue: #2490bf;
+$medBlue: #1286b7;
+$mutedBlue: #247ba0;
+$darkBlue: #044763;
+
+// Outer navigation wrapper styling
+.navigation {
+  height: $nav-height;
+  background: $darkBlue;
+}
+// Logo and Branding Styling
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+  line-height: $nav-height;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  a, a:visited {
+    color: $lightGray;
+    text-decoration: none;
+  }
+}
+
+
+.nav-container {
+  max-width: $content-width;
+  margin: 0 auto;
+}
+
+nav {
+  float: right;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      position: relative;
+      a, a:visited {
+        display: block;
+        padding: 0 20px;
+        line-height: $nav-height;
+        background: $darkBlue;
+        color: $lightGray;
+        text-decoration: none;
+        &:hover {
+          background: $gray;
+          color: $lightGray;          
+        }
+        &:not(:only-child):after {
+          padding-left: 4px;
+          content: ' ▾';
+        }
+      } // Dropdown list
+      ul li {
+        min-width: 200px;
+        a {
+          padding: 15px;
+          line-height: 20px;       
+        }
+      }  
+    }
+  }
+}
+// Dropdown list binds to JS toggle event
+.nav-dropdown {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile Navigation */
+
+//Bind to JS Toggle
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 275px;
+  right: 0;
+  background: $darkBlue;
+  height: $nav-height;
+  width: $nav-height;
+}
+
+@media only screen and (max-width: $breakpoint) {
+  // Hamburger visible on mobile only
+  .nav-mobile {
+    display: block;
+  }
+  nav {
+    width: 100%;
+    padding: $nav-height 0 15px;
+    ul {
+      display: none;
+      li {
+        float: none;
+        a {
+          padding: 15px;
+          line-height: 20px;
+        }
+        ul li a {
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+  .nav-dropdown {
+    position: static;
+  }
+}
+@media screen and (min-width: $breakpoint) {
+  .nav-list {
+    display: block !important;
+  }
+}
+#nav-toggle {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
+  span, span:before, span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: $lightGray;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+  }
+  span:before {
+    top: -10px;
+  }
+  span:after {
+    bottom: -10px;
+  }
+  &.active span {
+    background-color: transparent;
+    &:before, &:after {
+      top: 0;
+    }
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
