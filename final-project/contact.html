@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale-1">
+      <title>Contact Us | Temple Inn and Suites</title>
+      <meta name="description" content="Temple Inn and Suites Contact Page for Heather Holt in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="shortcut icon" href="images/favicon.png">
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+      <a href="index.html">
+        <header id="headerContainer">
+          <div id="brandingContainer">
+            <img id="logo" src="images/logo.png" alt="Temple Inn and Suites Logo">
+            <div id="headerText">
+              <h1 id="siteTitle">Temple Inn <span id="suites">and Suites</span></h1>
+            </div>
+          </div>
+        </header>
+      </a>
+      <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="#!">Menu</a>
+          </div>
+          <nav>
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="temples.html">Temples</a></li>
+              <li>
+                <a href="#!">Services</a>
+                <ul class="nav-dropdown">
+                  <li><a href="amenties.html">Amenities</a></li>
+                  <li><a href="receptions.html">Reception Hall</a></li>
+                  <li><a href="missionaries.html">Full-Time Missionaries</a></li>
+                </ul>
+              </li>
+              <li><a href="reservations.html">Reservations</a></li>
+              <li><a href="contact.html" id="activelink">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <main id="contactUs">
+        <h2>Contact Us</h2>
+        <div id="contactUsInfo">
+          <p id="number">Phone: 301.555.1234</p><br><br>
+          <p id="email">Email: <a href="mailto:#">info@templeinnandsuites.com</a></p>
+          <div id="address">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.40483702856!2d-77.09772048433423!3d38.98325594948311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576832774847!5m2!1sen!2sus" style="border:0;" allowfullscreen="" title="Map showing location of Temple Inn and Suites Headquarters"></iframe>
+            <address>
+              <p>4800 Montgomery Ln #300<br>Bethesda, MD 20814</p>
+            </address>
+          </div>
+          <p>We are available by phone from 9 a.m. to 5 p.m. Monday-Saturday. Emails received outside of working hours will be answered the next business day.</p>
+        </div>
+        <form id="contactUsForm" method="GET" action="thanks-contact.html">
+          <fieldset>
+            <legend>Send Us A Message</legend>
+            <label class="inputLabel">
+              Full Name: *<br>
+              <input type="text" name="fullName" pattern="[A-Za-z]{2,}+\s{1} [a-zA-Z]{3}" placeholder="Joseph Smith" required="required">
+            </label>
+            <label class="inputLabel">
+              Email: *<br>
+              <input type="email" name="email" placeholder="youremail@gmail.com">
+            </label>
+            <label class="inputLabel">
+              Phone Number: *<br>
+              <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="301-555-2468" required="required">
+            </label>
+            <label class="inputLabel">
+              Your Message:<br>
+              <textarea name="comment" form="reservationInfo">
+              </textarea>
+            </label>
+            <div id="requiredFields">
+              <p>*Required fields</p>
+            </div>
+          </fieldset>
+          <label class="inputLabel" id="submit">
+            <input type="submit" name="submit" value="Submit Message">
+          </label>
+        </form>
+      </main>
+      <footer>
+        <div id="contact">
+          <div id="contactMap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.40483702856!2d-77.09772048433423!3d38.98325594948311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576832774847!5m2!1sen!2sus" style="border:0;" allowfullscreen="" title="Map showing location of Temple Inn and Suites Headquarters"></iframe>
+          </div>
+          <div id="info">
+            <p><span id="contactHeader">Temple Inn and Suites</span></p>
+            <address>
+              <p>4800 Montgomery Ln #300<br>Bethesda, MD 20814</p>
+            </address>
+            <img id="phone" src="images/phone.png" alt="Phone Icon"/>
+              <p id="number">301.555.5555</p>
+              <br>
+              <img id="envelope" src="images/envelope.png" alt="Envelope Icon"/>
+              <p id="email"><a href="mailto:#">info@templeinnandsuites.com</a></p>
+          </div>
+        </div>
+        <div id="footerContent">
+          <p id="currentDate"></p>
+          <p>&copy; <span id="copyrightdate"></span> Heather Holt &nbsp; &vert; &nbsp; Utah, USA &nbsp; &vert; &nbsp; <a href="http://www.byui.edu/online" rel="noopener" target="_blank">BYU-Idaho Online Learning</a> &nbsp; &vert; &nbsp; <a href="resources.html" target="_blank">Resources</a><br>
+          This page was last updated on <span id="modifieddate"></span> <br>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/dates.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/home.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontloader.js"></script>
+  </body>
+</html>

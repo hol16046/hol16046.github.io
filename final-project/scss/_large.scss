@@ -1,6 +1,8 @@
 /* --------------------------------------------- */
 /* ---------Desktop View Formatting ----------- */
 /* --------------------------------------------- */
+
+
 header, main, footer {
       margin: 1.25rem auto;
       padding: 1em;
@@ -18,10 +20,36 @@ header, main, footer {
     padding: 0;
 }
 #siteTitle {
-    font-size: 65px;
+    font-size: 60px;
 }
-#tagline {
-    font-size: 35px;
+#headerContainer {
+    height: 225px;
+}
+#brandingContainer {
+    max-width: 1020px;
+}
+.brand {
+    display: none;
+}
+.nav-container {
+    display: flex;
+}
+nav {
+    float: none;
 }
 
+/* --------------------------------------------- */
+/* --------- Footer Formatting ----------- */
+/* --------------------------------------------- */
+#contact, #footerContent {
+    padding: 0;
+    max-width: 1020px;
+    }
 
+
+/* --------------------------------------------- */
+/* --------- Thanks Page Formatting ----------- */
+/* --------------------------------------------- */
+#thanks {
+    font-size: 30px;
+}

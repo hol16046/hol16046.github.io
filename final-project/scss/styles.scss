@@ -1,10 +1,10 @@
 @import "normalize";
 @import "variables";
+@import "resources";
 @import "small";
 @media only screen and (min-width: 560px) {
     @import "medium";
 } /* end of media query */
-@media only screen and (min-width: 1028px) {
+@media only screen and (min-width: 960px) {
     @import "large";
 } /* end of media query */
-//@import "resources";

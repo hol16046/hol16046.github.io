@@ -390,6 +390,64 @@ template {
 [hidden] {
   display: none; }
 
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+.resources body {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Didact Gothic", Helvetica, sans-serif;
+  color: #333335; }
+
+.resources h1, .resources h2, .resources h3, .resources h4, .resources h5, .resources h6 {
+  font-family: "Patua One", "Times New Roman", Times, serif;
+  letter-spacing: .05em; }
+
+.resources h1 {
+  font-size: 2.5rem;
+  color: #ffffff; }
+
+.resources h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #bbb; }
+
+.resources header, .resources main, .resources footer {
+  margin: 1.25rem auto;
+  padding: 1em;
+  max-width: 900px; }
+
+.resources header, .resources footer, .resources footer a {
+  text-align: center;
+  background-color: #044763;
+  color: whitesmoke; }
+
+.resources header img {
+  width: 150px;
+  height: auto;
+  float: right; }
+
+.resources li {
+  font-family: "Didact Gothic", Helvetica, sans-serif;
+  font-size: 20px; }
+
+.resources footer {
+  font-size: 1rem;
+  font-family: "Didact Gothic", Helvetica, sans-serif; }
+
+.resources li a {
+  color: #047BA0;
+  text-decoration: none; }
+
+.resources li a:link {
+  color: #047BA0;
+  text-decoration: none; }
+
+.resources li a:visited {
+  color: #047BA0;
+  text-decoration: none; }
+
 /* --------------------------------------------- */
 /* --------- Page Formatting ----------- */
 /* --------------------------------------------- */
@@ -404,7 +462,8 @@ body {
   font-size: 20px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Patua One", "Times New Roman", Times, serif; }
+  font-family: "Patua One", "Times New Roman", Times, serif;
+  color: #1286b7; }
 
 /* Non-Navigational Link Styles */
 a {
@@ -434,38 +493,40 @@ h1 {
 #headerContainer {
   display: flex;
   margin: 20px 40px;
-  height: 235px; }
+  height: 160px; }
+
+#brandingContainer {
+  display: flex;
+  margin: auto; }
 
 /* ----- Logo/Tagline Formatting ----- */
 #logo {
-  width: 30%;
+  max-width: 30%;
   height: auto;
-  max-height: 225px;
-  max-width: 190px;
+  max-height: 150px;
   margin: auto; }
 
 #headerText {
   width: 100%;
-  margin: 35px 0;
-  vertical-align: middle; }
+  margin: auto; }
 
 #siteTitle {
-  display: block;
-  font-size: 9vw;
-  font-weight: 900;
-  text-align: right;
-  margin: 10px 20px 10px 0px; }
+  font-size: 9.5vw;
+  text-align: right; }
 
 #suites {
   white-space: pre; }
 
-#tagline {
-  font-size: 5vw;
-  color: #218681; }
+@media only screen and (min-width: 520px) {
+  #siteTitle {
+    font-size: 50px; } }
+@media only screen and (min-width: 720px) {
+  #brandingContainer {
+    max-width: 650px; }
 
-#tagline span {
-  white-space: pre; }
-
+  #headerText {
+    padding-top: 20px;
+    padding-left: 40px; } }
 /* ----- Main Nav Formatting ----- */
 .navigation {
   height: 70px;
@@ -477,7 +538,7 @@ h1 {
   float: left;
   line-height: 70px;
   text-transform: uppercase;
-  font-size: 1.4em; }
+  font-size: 1em; }
   .brand a, .brand a:visited {
     color: #EEEEEE;
     text-decoration: none; }
@@ -524,7 +585,7 @@ nav {
 .nav-mobile {
   display: none;
   position: absolute;
-  top: 275px;
+  top: 200px;
   right: 0;
   background: #044763;
   height: 70px;
@@ -581,8 +642,369 @@ nav {
     #nav-toggle.active span:after {
       transform: rotate(-45deg); }
 
+/* ----- Link Styling ----- */
+#activelink {
+  background-color: #333335; }
+
+nav a:link {
+  color: #EEEEEE; }
+
+nav a:visited {
+  color: #EEEEEE; }
+
+nav a:hover {
+  color: #EEEEEE; }
+
+nav li:hover {
+  color: #EEEEEE;
+  background-color: #333335; }
+
+nav a:active {
+  color: #EEEEEE; }
+
+#activelink:hover {
+  color: #EEEEEE;
+  background-color: #333335; }
+
+#activelink a:hover {
+  color: #EEEEEE; }
+
+#activelinkmenu {
+  background-color: #333335; }
+
+#activelinkmenu:hover {
+  color: #EEEEEE;
+  background-color: #333335; }
+
+#activelinkmenu a:hover {
+  color: #EEEEEE; }
+
+/* --------------------------------------------- */
+/* --------- Footer Formatting ----------- */
+/* --------------------------------------------- */
+footer {
+  font-size: 16px;
+  text-align: center;
+  background-color: #044763;
+  color: #EEEEEE; }
+
+footer a {
+  color: #EEEEEE;
+  text-decoration: underline; }
+
+footer a:link {
+  color: #EEEEEE;
+  text-decoration: underline; }
+
+footer a:visited {
+  color: #EEEEEE; }
+
+footer a:hover {
+  color: #EEEEEE; }
+
+footer a:active {
+  color: #EEEEEE; }
+
+/* ----- Contact Info Styling ----- */
+#contact {
+  background-color: #044763;
+  padding: 20px;
+  text-align: right; }
+
+#contactHeader {
+  font-family: "Didact Gothic", Helvetica, sans-serif; }
+
+#contactMap {
+  display: none; }
+
+#contact p {
+  margin-right: 10px; }
+
+#phone {
+  margin-bottom: -1px;
+  width: 13px; }
+
+#envelope {
+  margin-bottom: -5px;
+  width: 20px; }
+
+#number, #email {
+  display: inline; }
+
+/* ----- Footer Info Styling ----- */
+#footerContent {
+  padding: 15px; }
+
+/* --------------------------------------------- */
+/* --------- Home Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+main {
+  max-width: 1020px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center; }
+
+#hero {
+  position: relative;
+  min-height: 155px; }
+
+#heroImg {
+  width: 100%;
+  min-height: 220px;
+  border: 3px solid #EEEEEE; }
+
+#action {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: #044763;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid #2490bf;
+  text-transform: uppercase; }
+
+#actionbtn:link {
+  color: #EEEEEE; }
+
+#actionbtn:visited {
+  color: #EEEEEE; }
+
+#actionbtn:active {
+  color: #EEEEEE; }
+
+#actionbtn:hover {
+  color: #EEEEEE; }
+
+#action:hover {
+  background-color: #9D3000; }
+
+#hero h2 {
+  color: #247ba0; }
+
+#hero p {
+  text-align: left; }
+
+/* --------------------------------------------- */
+/* --------- Reservations Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#reservations {
+  max-width: 600px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center; }
+
+#reserveHeading {
+  font-family: "Didact Gothic", Helvetica, sans-serif;
+  color: #333335; }
+
+#reservationInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start; }
+
+#reservationInfo fieldset {
+  margin: 15px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 100%; }
+
+#guestInfo {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 20px; }
+
+#guestInfo label {
+  margin: 10px; }
+
+legend {
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0 5px;
+  padding: 0 10px; }
+
+label {
+  margin: 15px 0 0 10px; }
+
+input, select, textarea {
+  padding: 5px;
+  width: 100%;
+  margin-top: 10px; }
+
+input[type="radio"] {
+  width: 13px;
+  margin-left: 20px; }
+
+textarea {
+  height: 100px; }
+
+#currentLevel {
+  margin-left: 10px;
+  color: #333335; }
+
+#requiredFields {
+  margin: 10px;
+  font-size: .75rem; }
+
+.inputLabel {
+  color: #247ba0; }
+
+.radioLabel {
+  color: #333335; }
+
+input, textarea, select {
+  border: 2px solid #EEEEEE; }
+
+#dates {
+  display: flex;
+  flex-direction: column; }
+
+#dates {
+  margin: 10px;
+  width: 95%; }
+
+#lastDate {
+  margin: 10px 0 0 0; }
+
+#countryInfo {
+  margin: 0; }
+
+#specify {
+  padding-left: 10px; }
+
+#submit {
+  margin: 0 auto; }
+
+#submit input {
+  color: #EEEEEE;
+  background-color: #044763;
+  border: 3px solid #2490bf;
+  width: 100%; }
+
+#submit input:hover {
+  background-color: #9D3000; }
+
+/* --------------------------------------------- */
+/* --------- Thanks Page Formatting ----------- */
+/* --------------------------------------------- */
+#thanksMain {
+  max-width: 750px;
+  margin: 0 auto; }
+
+#thanks {
+  font-size: 20px; }
+
+#thanksImg {
+  margin-top: 20px;
+  max-width: 700px; }
+
+/* --------------------------------------------- */
+/* --------- Contact Us Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#contactUs {
+  max-width: 600px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center; }
+
+#contactUsInfo {
+  margin: 20px auto;
+  text-align: left;
+  padding: 0 10px; }
+
+#contactUsInfo p {
+  margin: 10px 0; }
+
+#address {
+  margin-top: 20px; }
+
+#contactUsForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start; }
+
+#contactUsForm fieldset {
+  margin: 15px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 100%; }
+
+#guestInfo {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 20px; }
+
+#guestInfo label {
+  margin: 10px; }
+
+#currentLevel {
+  margin-left: 10px;
+  color: #333335; }
+
+#dates {
+  display: flex;
+  flex-direction: column; }
+
+#dates {
+  margin: 10px;
+  width: 95%; }
+
+#lastDate {
+  margin: 10px 0 0 0; }
+
+#countryInfo {
+  margin: 0; }
+
+#specify {
+  padding-left: 10px; }
+
+@media only screen and (min-width: 560px) {
+  /* --------------------------------------------- */
+  /* --------- Reservations Page Main Content Formatting ----------- */
+  /* --------------------------------------------- */
+  form {
+    max-width: 600px; }
+
+  /* --------------------------------------------- */
+  /* --------- Thanks Page Formatting ----------- */
+  /* --------------------------------------------- */
+  #thanks {
+    font-size: 25px; }
+
+  /* --------------------------------------------- */
+  /* --------- Footer Formatting ----------- */
+  /* --------------------------------------------- */
+  footer {
+    padding-top: 0; }
+
+  /* ----- Contact Info Styling ----- */
+  #contact {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  #contactMap {
+    display: block;
+    height: 130px;
+    float: left; } }
 /* end of media query */
-@media only screen and (min-width: 1028px) {
+@media only screen and (min-width: 960px) {
   /* --------------------------------------------- */
   /* ---------Desktop View Formatting ----------- */
   /* --------------------------------------------- */
@@ -602,8 +1024,33 @@ nav {
     padding: 0; }
 
   #siteTitle {
-    font-size: 65px; }
+    font-size: 60px; }
 
-  #tagline {
-    font-size: 35px; } }
+  #headerContainer {
+    height: 225px; }
+
+  #brandingContainer {
+    max-width: 1020px; }
+
+  .brand {
+    display: none; }
+
+  .nav-container {
+    display: flex; }
+
+  nav {
+    float: none; }
+
+  /* --------------------------------------------- */
+  /* --------- Footer Formatting ----------- */
+  /* --------------------------------------------- */
+  #contact, #footerContent {
+    padding: 0;
+    max-width: 1020px; }
+
+  /* --------------------------------------------- */
+  /* --------- Thanks Page Formatting ----------- */
+  /* --------------------------------------------- */
+  #thanks {
+    font-size: 30px; } }
 /* end of media query */

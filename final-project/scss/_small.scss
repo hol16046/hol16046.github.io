@@ -15,6 +15,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $serif;
+    color: $medBlue;
 }
 
 /* Non-Navigational Link Styles */
@@ -46,51 +47,48 @@ h1 {
 #headerContainer {
     display: flex;
     margin: 20px 40px;
-    height: 235px;
+    height: 160px;
+}
+#brandingContainer {
+    display: flex;
+    margin: auto;
 }
 
 /* ----- Logo/Tagline Formatting ----- */
 #logo {
-    width: 30%;
+    max-width: 30%;
     height: auto;
-    max-height: 225px;
-    max-width: 190px;
+    max-height: 150px;
     margin: auto;
 }
 #headerText {
     width: 100%;
-    margin: 35px 0;
-    vertical-align: middle;
+    margin: auto;
 }
 #siteTitle {
-    display: block;
-    font-size: 9vw;
-    font-weight: 900;
+    font-size: 9.5vw;
     text-align: right;
-    margin: 10px 20px 10px 0px;
 }
 #suites {
     white-space: pre;
 }
-#tagline {
-    font-size: 5vw;
-    color: #218681
+
+@media only screen and (min-width: 520px) {
+    #siteTitle {
+        font-size: 50px;
+    }
 }
-#tagline span {
-    white-space: pre;
+@media only screen and (min-width: 720px) {
+    #brandingContainer {
+        max-width: 650px;
+    }
+    #headerText {
+        padding-top: 20px;
+        padding-left: 40px;
+    }
 }
 
 /* ----- Main Nav Formatting ----- */
-
-$content-width: 1020px;
-$breakpoint: 60em;
-$nav-height: 70px;
-$gray: #333335;
-$lightGray: #EEEEEE;
-$brightBlue: #2490bf;
-$medBlue: #1286b7;
-$mutedBlue: #247ba0;
-$darkBlue: #044763;
 
 // Outer navigation wrapper styling
 .navigation {
@@ -104,7 +102,7 @@ $darkBlue: #044763;
   float: left;
   line-height: $nav-height;
   text-transform: uppercase;
-  font-size: 1.4em;
+  font-size: 1em;
   a, a:visited {
     color: $lightGray;
     text-decoration: none;
@@ -166,7 +164,7 @@ nav {
 .nav-mobile {
   display: none;
   position: absolute;
-  top: 275px;
+  top: 200px;
   right: 0;
   background: $darkBlue;
   height: $nav-height;
@@ -240,4 +238,343 @@ nav {
     }
   }
 }
+/* ----- Link Styling ----- */
+#activelink {
+    background-color: $gray;
+}
+nav a:link {
+    color: $lightGray;
+}
+nav a:visited {
+    color: $lightGray;
+}
+nav a:hover {
+    color: $lightGray;
+}
+nav li:hover {
+    color: $lightGray;
+    background-color: $gray;
+}
+nav a:active {
+    color: $lightGray;
+}
+#activelink:hover {
+    color: $lightGray;
+    background-color: $gray;
+}
+#activelink a:hover {
+    color: $lightGray;
+}
+#activelinkmenu {
+    background-color: $gray;
+}
+#activelinkmenu:hover {
+    color: $lightGray;
+    background-color: $gray;
+}
+#activelinkmenu a:hover {
+    color: $lightGray;
+}
 
+/* --------------------------------------------- */
+/* --------- Footer Formatting ----------- */
+/* --------------------------------------------- */
+footer {
+    font-size: 16px;
+    text-align: center;
+    background-color: $darkBlue;
+    color: $lightGray;
+}
+footer a {
+    color: $lightGray;
+    text-decoration: underline;
+}
+footer a:link {
+    color: $lightGray;
+    text-decoration: underline;
+}
+footer a:visited{
+	color: $lightGray;
+}
+footer a:hover{
+	color: $lightGray;
+}
+footer a:active{
+	color: $lightGray;
+}
+/* ----- Contact Info Styling ----- */
+#contact {
+    background-color: $darkBlue;
+    padding: 20px;
+    text-align: right;
+}
+#contactHeader {
+    font-family: $sans;
+}
+#contactMap {
+    display: none;
+}
+#contact p {
+    margin-right: 10px;
+}
+#phone {
+    margin-bottom: -1px;
+    width: 13px;
+}
+#envelope {
+    margin-bottom: -5px;
+    width: 20px;
+}
+#number, #email {
+    display: inline;
+}
+/* ----- Footer Info Styling ----- */
+#footerContent {
+    padding: 15px;
+}
+
+
+/* --------------------------------------------- */
+/* --------- Home Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+main {
+    max-width: 1020px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#hero {
+    position: relative;
+    min-height: 155px;
+}
+#heroImg {
+    width: 100%;
+    min-height: 220px;
+    border: 3px solid $lightGray;
+}
+#action {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: $darkBlue;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid $brightBlue;
+    text-transform: uppercase;
+}
+#actionbtn:link {
+    color: $lightGray;
+}
+#actionbtn:visited{
+    color: $lightGray;
+}
+#actionbtn:active {
+    color: $lightGray;
+}
+#actionbtn:hover {
+    color: $lightGray;
+}
+#action:hover {
+    background-color: $complementary;
+}
+#hero h2 {
+    color: $mutedBlue;
+}
+#hero p {
+    text-align: left;
+}
+
+
+/* --------------------------------------------- */
+/* --------- Reservations Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#reservations {
+    max-width: 600px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+#reserveHeading {
+    font-family: $sans;
+    color: $gray;
+}
+#reservationInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+#reservationInfo fieldset {
+    margin: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 100%;
+}
+#guestInfo {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+#guestInfo label {
+    margin: 10px;
+}
+legend {
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0 5px;
+    padding: 0 10px;
+}
+label {
+    margin: 15px 0 0 10px;
+}
+input, select, textarea {
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+input[type="radio"] {
+    width: 13px;
+    margin-left: 20px;
+} 
+
+textarea {
+    height: 100px;
+}
+#currentLevel {
+    margin-left: 10px;
+    color: $gray;
+}
+#requiredFields {
+    margin: 10px;
+    font-size: .75rem;
+}
+.inputLabel  {
+    color: $mutedBlue;
+}
+.radioLabel {
+    color: $gray;
+}
+input, textarea, select {
+    border: 2px solid $lightGray;
+}
+#dates {
+    display: flex;
+    flex-direction: column;
+}
+#dates {
+    margin: 10px;
+    width: 95%;
+}
+#lastDate {
+    margin: 10px 0 0 0;
+}
+#countryInfo {
+    margin: 0;
+}
+#specify {
+    padding-left: 10px;
+}
+#submit {
+    margin: 0 auto;
+}
+#submit input {
+    color: $lightGray;
+    background-color: $darkBlue;
+    border: 3px solid $brightBlue;
+    width: 100%;
+}
+#submit input:hover {
+    background-color: $complementary;
+}
+
+/* --------------------------------------------- */
+/* --------- Thanks Page Formatting ----------- */
+/* --------------------------------------------- */
+#thanksMain {
+    max-width: 750px;
+    margin: 0 auto;
+}
+#thanks {
+    font-size: 20px;
+}
+#thanksImg {
+    margin-top: 20px;
+    max-width: 700px;
+}
+
+/* --------------------------------------------- */
+/* --------- Contact Us Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#contactUs {
+    max-width: 600px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+#contactUsInfo {
+    margin: 20px auto;
+    text-align: left;
+    padding: 0 10px;
+}
+#contactUsInfo p {
+    margin: 10px 0;
+}
+#address {
+    margin-top: 20px;
+}
+#contactUsForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+#contactUsForm fieldset {
+    margin: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 100%;
+}
+#guestInfo {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+#guestInfo label {
+    margin: 10px;
+}
+#currentLevel {
+    margin-left: 10px;
+    color: $gray;
+}
+
+#dates {
+    display: flex;
+    flex-direction: column;
+}
+#dates {
+    margin: 10px;
+    width: 95%;
+}
+#lastDate {
+    margin: 10px 0 0 0;
+}
+#countryInfo {
+    margin: 0;
+}
+#specify {
+    padding-left: 10px;
+}

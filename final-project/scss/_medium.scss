@@ -1,0 +1,36 @@
+
+
+
+/* --------------------------------------------- */
+/* --------- Reservations Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+form {
+    max-width: 600px;
+}
+
+/* --------------------------------------------- */
+/* --------- Thanks Page Formatting ----------- */
+/* --------------------------------------------- */
+#thanks {
+    font-size: 25px;
+}
+
+
+/* --------------------------------------------- */
+/* --------- Footer Formatting ----------- */
+/* --------------------------------------------- */
+footer {
+    padding-top: 0;
+}
+/* ----- Contact Info Styling ----- */
+#contact {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+#contactMap {
+    display: block;
+    height: 130px;
+    float: left;
+}

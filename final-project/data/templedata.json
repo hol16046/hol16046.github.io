@@ -1,0 +1,137 @@
+{
+    "temples" : [
+        {
+            "name": "Palmyra, New York",
+            "photo": "palmyra.jpg",
+            "addressLine1": "2720 Temple Rd",
+            "addressLine2": "Palmyra, NY 14522-9573",
+            "phone": "+1 (315) 597-6001",
+            "email": "palmyra.temple@churchofjesuschrist.org",
+            "services" : [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history" : [
+                "21 February 1999: Announced",
+                "25 May 1999: Groundbreaking",
+                "6 April 2000: Dedicated"
+            ],
+            "closed" : [
+                "Monday, 23 December 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019",
+                "Wednesday, 1 January 2020",
+                "Monday, 10 February 2020 - Monday, 24 February 2020",
+                "Tuesday, 25 February 2020 - Wednesday, 26 February 2020",
+                "Saturday, 4 April 2020",
+                "Saturday, 4 July 2020",
+                "Monday, 7 September 2020 - Saturday, 19 September 2020",
+                "Saturday, 3 October 2020",
+                "Thursday, 26 November 2020",
+                "Thursday, 24 December 2020",
+                "Friday, 25 December 2020",
+                "Thursday, 31 December 2020"
+            ]
+        },
+        {
+            "name": "Philadelphia, Pennsylvania",
+            "photo": "philadelphia.jpg",
+            "addressLine1": "1739 Vine St",
+            "addressLine2": "Philadelphia, PA 19103",
+            "phone": "+1 (215) 398-3040",
+            "email": "philadelphia.temple@churchofjesuschrist.org",
+            "services" : [
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No distribution center nearby"
+            ],
+            "history" : [
+                "4 October 2008: Announced",
+                "17 September 2011: Groundbreaking",
+                "18 September 2016: Dedicated"
+            ],
+            "closed" : [
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019",
+                "Wednesday, 1 January 2020",
+                "Tuesday, 24 March 2020 - Monday, 6 April 2020",
+                "Tuesday, 7 April 2020 - Thursday, 9 April 2020 (Limited Hours)",
+                "Saturday, 4 July 2020",
+                "Tuesday, 22 September 2020 - Monday, 5 October 2020",
+                "Tuesday, 6 October 2020 - Saturday, 10 October 2020 (Limited Hours)",
+                "Wednesday, 25 November 2020 - Thursday, 26 November 2020",
+                "Thursday, 24 December 2020 - Friday, 25 December 2020",
+                "Thursday, 31 December 2020"
+            ]
+        },
+        {
+            "name": "Nauvoo, Illinois",
+            "photo": "nauvoo.jpg",
+            "addressLine1": "50 N Wells St",
+            "addressLine2": "Nauvoo, IL 62354",
+            "phone": "+1 (217) 453-6252",
+            "email": "nauvoo.temple@churchofjesuschrist.org",
+            "services" : [
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No distribution center nearby"
+            ],
+            "history" : [
+                "4 April 1999: Announced",
+                "24 October 1999: Groundbreaking",
+                "27 June 2002: Dedicated"
+            ],
+            "closed" : [
+                "Wednesday, 25 December 2019",
+                "Saturday, 4 April 2020",
+                "Tuesday, 7 April 2020 - Saturday, 16 May 2020",
+                "Saturday, 3 October 2020",
+                "Tuesday, 10 November 2020 - Saturday, 21 November 2020",
+                "Wednesday, 25 November 2020 - Thursday, 26 November 2020",
+                "Wednesday, 25 November 2020 - Thursday, 26 November 2020",
+                "Friday, 25 December 2020"
+            ]
+        },
+        {
+            "name": "Oakland, California",
+            "photo": "oakland.jpg",
+            "addressLine1": "4770 Lincoln Ave",
+            "addressLine2": "Oakland, CA 94602-2535",
+            "phone": "+1 (510) 531-3200",
+            "email": "oakland.temple@churchofjesuschrist.org",
+            "services" : [
+                "Clothing rental available",
+                "Cafeteria available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ],
+            "history" : [
+                "23 January 1961: Announced",
+                "26 May 1962: Groundbreaking",
+                "17 November 1964: Dedicated",
+                "16 June 2019: Rededicated"
+            ],
+            "closed" : [
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019",
+                "Wednesday, 1 January 2020",
+                "Monday, 9 March 2020 - Monday, 23 March 2020",
+                "Saturday, 4 April 2020",
+                "Saturday, 4 July 2020",
+                "Monday, 14 September 2020 - Monday, 28 September 2020",
+                "Saturday, 3 October 2020",
+                "Wednesday, 25 November 2020 (Limited Hours)",
+                "Thursday, 26 November 2020",
+                "Thursday, 24 December 2020",
+                "Friday, 25 December 2020",
+                "Thursday, 31 December 2020"
+            ]
+        }        
+    ]
+}
