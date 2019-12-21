@@ -1100,6 +1100,14 @@ section:last-child {
 /* --------------------------------------------- */
 /* --------- Reception Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
+#receptions #features {
+  display: grid; }
+  #receptions #features figure {
+    width: 100%;
+    margin: 20px auto; }
+    #receptions #features figure img {
+      width: 100%; }
+
 @media only screen and (min-width: 560px) {
   /* --------------------------------------------- */
   /* --------- Home Page Main Content Formatting ----------- */

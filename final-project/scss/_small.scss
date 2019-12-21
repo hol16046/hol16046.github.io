@@ -741,5 +741,14 @@ section:last-child {
 /* --------- Reception Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
 #receptions {
-    
+    #features {
+        display: grid;
+        figure {
+            width: 100%;
+            margin: 20px auto;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
