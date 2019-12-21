@@ -476,7 +476,7 @@ a:visited {
   color: #044763; }
 
 a:hover {
-  color: #2490bf; }
+  color: #9D3000; }
 
 a:active {
   color: #1286b7; }
@@ -793,10 +793,24 @@ article figure {
   width: 90%;
   margin: 5px;
   padding: 5px;
-  border: 1px solid #636366; }
+  border: 1px solid #1286b7; }
 
 article figure img {
-  width: 100%; }
+  width: 100%;
+  border: 3px solid #EEEEEE; }
+
+#featured {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 10px auto; }
+  #featured figure {
+    margin: 10px 0 0 0;
+    width: 100%; }
+    #featured figure img {
+      width: 100%;
+      border: 3px solid #EEEEEE; }
+    #featured figure figcaption {
+      margin: 5px; }
 
 /* --------------------------------------------- */
 /* --------- Reservations Page Main Content Formatting ----------- */
@@ -1051,6 +1065,14 @@ section:last-child {
     float: right;
     width: 50%; }
 
+  #featured {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; }
+    #featured figure:last-child {
+      grid-column: span 2;
+      width: 50%;
+      justify-self: center; }
+
   /* --------------------------------------------- */
   /* --------- Temples Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
@@ -1147,6 +1169,9 @@ section:last-child {
     font-size: 30px; }
 
   /* --------------------------------------------- */
-  /* --------- Temples Page Main Content Formatting ----------- */
-  /* --------------------------------------------- */ }
+  /* --------- Home Page Main Content Formatting ----------- */
+  /* --------------------------------------------- */
+  #featured {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; } }
 /* end of media query */

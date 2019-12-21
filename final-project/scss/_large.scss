@@ -55,5 +55,9 @@ nav {
 }
 
 /* --------------------------------------------- */
-/* --------- Temples Page Main Content Formatting ----------- */
+/* --------- Home Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
+#featured {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
