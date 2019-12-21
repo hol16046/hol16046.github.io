@@ -83,3 +83,19 @@ footer {
         }
     }
 }
+
+
+/* --------------------------------------------- */
+/* --------- Receptions Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#receptions {
+    #features {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+        figure:last-child {
+            grid-column: span 2;
+            width: 60%;
+            justify-self: center;
+        }
+    }
+}

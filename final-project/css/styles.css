@@ -1176,7 +1176,18 @@ section:last-child {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px; }
     #services #amenitieslist #amenities {
-      order: 2; } }
+      order: 2; }
+
+  /* --------------------------------------------- */
+  /* --------- Receptions Page Main Content Formatting ----------- */
+  /* --------------------------------------------- */
+  #receptions #features {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; }
+    #receptions #features figure:last-child {
+      grid-column: span 2;
+      width: 60%;
+      justify-self: center; } }
 /* end of media query */
 @media only screen and (min-width: 960px) {
   /* --------------------------------------------- */
