@@ -272,6 +272,9 @@ footer a:active { color: #EEEEEE; }
 /* ----- Footer Info Styling ----- */
 #footerContent { padding: 15px; }
 
+#contactpage { text-align: center; }
+#contactpage #contactMap { display: none; }
+
 /* --------------------------------------------- */
 /* --------- Home Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
@@ -472,6 +475,8 @@ section:last-child { margin-bottom: 20px; }
   /* ----- Contact Info Styling ----- */
   #contact { min-height: 200px; display: flex; justify-content: center; align-items: center; }
   #contactMap { display: block; height: 130px; float: left; }
+  #contactpage { min-height: 150px; display: flex; justify-content: flex-end; align-items: center; }
+  #contactpage #contactMap { display: none; }
   /* --------------------------------------------- */
   /* --------- Amenities Page Main Content Formatting ----------- */
   /* --------------------------------------------- */

@@ -72,6 +72,15 @@ footer {
     height: 130px;
     float: left;
 }
+#contactpage {
+    min-height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    #contactMap {
+        display: none;
+    }
+}
 
 /* --------------------------------------------- */
 /* --------- Amenities Page Main Content Formatting ----------- */
