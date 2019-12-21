@@ -50,7 +50,7 @@ fetch(requestData)
             h3.textContent = temples[i].name;
             photodiv.setAttribute ('class', "photo");
             photo.setAttribute('src', "images/temples/" + temples[i].photo);
-            photo.setAttribute('alt', temples[1].name + " Temple")
+            photo.setAttribute('alt', temples[i].name + " Temple")
             addressdiv.setAttribute('class', "address");
             line1.textContent = temples[i].addressLine1;
             line2.textContent = temples[i].addressLine2;
