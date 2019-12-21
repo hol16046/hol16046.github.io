@@ -1247,5 +1247,16 @@ section:last-child {
     grid-gap: 10px; }
     #featured figure:last-child {
       grid-column: span 1;
+      width: 100%; }
+
+  /* --------------------------------------------- */
+  /* --------- Receptions Page Main Content Formatting ----------- */
+  /* --------------------------------------------- */
+  #receptions #features {
+    margin-bottom: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; }
+    #receptions #features figure:last-child {
+      grid-column: span 1;
       width: 100%; } }
 /* end of media query */
