@@ -1107,6 +1107,47 @@ section:last-child {
     margin: 20px auto; }
     #receptions #features figure img {
       width: 100%; }
+#receptions #receptionForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start; }
+  #receptions #receptionForm fieldset {
+    margin: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 100%; }
+
+/* --------------------------------------------- */
+/* --------- Missionaries Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#missionaries #rooms {
+  display: grid; }
+  #missionaries #rooms figure {
+    width: 100%;
+    margin: 20px auto; }
+    #missionaries #rooms figure img {
+      width: 100%; }
+#missionaries #missionaryForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start; }
+  #missionaries #missionaryForm fieldset {
+    margin: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 100%; }
 
 @media only screen and (min-width: 560px) {
   /* --------------------------------------------- */
@@ -1187,6 +1228,17 @@ section:last-child {
     #receptions #features figure:last-child {
       grid-column: span 2;
       width: 60%;
+      justify-self: center; }
+
+  /* --------------------------------------------- */
+  /* --------- Missionaries Page Main Content Formatting ----------- */
+  /* --------------------------------------------- */
+  #missionaries #rooms {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; }
+    #missionaries #rooms figure:last-child {
+      grid-column: span 2;
+      width: 60%;
       justify-self: center; } }
 /* end of media query */
 @media only screen and (min-width: 960px) {
@@ -1251,6 +1303,17 @@ section:last-child {
 
   /* --------------------------------------------- */
   /* --------- Receptions Page Main Content Formatting ----------- */
+  /* --------------------------------------------- */
+  #receptions #features {
+    margin-bottom: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; }
+    #receptions #features figure:last-child {
+      grid-column: span 1;
+      width: 100%; }
+
+  /* --------------------------------------------- */
+  /* --------- Missionaries Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
   #receptions #features {
     margin-bottom: 30px;

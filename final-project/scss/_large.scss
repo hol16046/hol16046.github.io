@@ -80,3 +80,19 @@ nav {
         }
     }
 }
+
+
+/* --------------------------------------------- */
+/* --------- Missionaries Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#receptions {
+    #features {
+    margin-bottom: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+        figure:last-child {
+            grid-column: span 1;
+            width: 100%;
+        }
+    }
+}

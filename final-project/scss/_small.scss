@@ -751,4 +751,54 @@ section:last-child {
             }
         }
     }
+    #receptionForm {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        fieldset {
+            margin: 15px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+            width: 100%;
+        }
+    }
+}
+
+/* --------------------------------------------- */
+/* --------- Missionaries Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#missionaries {
+    #rooms {
+        display: grid;
+        figure {
+            width: 100%;
+            margin: 20px auto;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    #missionaryForm {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        fieldset {
+            margin: 15px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+            width: 100%;
+        }
+    }
 }
