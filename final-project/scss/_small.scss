@@ -9,7 +9,7 @@
 body {  
     font-family: $sans;
     font-weight: bold;
-    color: #2e3332;
+    color: $gray;
     font-size: 20px;
 }
 
@@ -346,6 +346,8 @@ main {
 #hero {
     position: relative;
     min-height: 155px;
+    display: block;
+    margin-top: 20px;
 }
 #heroImg {
     width: 100%;
@@ -681,4 +683,63 @@ input, textarea, select {
 }
 section:last-child {
     margin-bottom: 20px;
+}
+
+/* --------------------------------------------- */
+/* --------- Amenities Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+
+#services {
+    #amenitieslist {
+        display: grid;
+        grid-template-columns: 1fr;
+        #amenities, #serviceslist {
+            background-color: $darkBlue;
+            color: $lightGray;
+            margin: 10px auto;
+            padding: 10px;
+            width: 100%;
+            h3 {
+                color: $lightGray;
+                text-decoration: underline;
+                text-decoration-color: $brightBlue;
+            }
+            ul {
+                text-align: left;
+                margin-top: 10px;
+            }
+            a:link{
+                color: $lightGray;
+                text-decoration: underline;
+            }
+            a:visited {
+                color: $lightGray;
+                text-decoration: underline;
+            }
+            a:active {
+                color: $lightGray;
+                text-decoration: underline;
+            }
+            a:hover {
+                color: $lightGray;
+                text-decoration: underline;
+            }
+        }
+        figure {
+            width: 100%;
+            margin: 20px auto;
+            img {
+                width: 100%;
+                border: 3px solid $lightGray;
+            }
+        }
+    }
+}
+
+
+/* --------------------------------------------- */
+/* --------- Reception Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#receptions {
+    
 }

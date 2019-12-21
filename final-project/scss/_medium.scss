@@ -70,3 +70,16 @@ footer {
     height: 130px;
     float: left;
 }
+
+/* --------------------------------------------- */
+/* --------- Amenities Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#services {
+    #amenitieslist {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        #amenities {
+            order: 2;
+        }
+    }
+}

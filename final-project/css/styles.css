@@ -458,7 +458,7 @@ template {
 body {
   font-family: "Didact Gothic", Helvetica, sans-serif;
   font-weight: bold;
-  color: #2e3332;
+  color: #333335;
   font-size: 20px; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -746,7 +746,9 @@ main {
 
 #hero {
   position: relative;
-  min-height: 155px; }
+  min-height: 155px;
+  display: block;
+  margin-top: 20px; }
 
 #heroImg {
   width: 100%;
@@ -1057,6 +1059,47 @@ input, textarea, select {
 section:last-child {
   margin-bottom: 20px; }
 
+/* --------------------------------------------- */
+/* --------- Amenities Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
+#services #amenitieslist {
+  display: grid;
+  grid-template-columns: 1fr; }
+  #services #amenitieslist #amenities, #services #amenitieslist #serviceslist {
+    background-color: #044763;
+    color: #EEEEEE;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%; }
+    #services #amenitieslist #amenities h3, #services #amenitieslist #serviceslist h3 {
+      color: #EEEEEE;
+      text-decoration: underline;
+      text-decoration-color: #2490bf; }
+    #services #amenitieslist #amenities ul, #services #amenitieslist #serviceslist ul {
+      text-align: left;
+      margin-top: 10px; }
+    #services #amenitieslist #amenities a:link, #services #amenitieslist #serviceslist a:link {
+      color: #EEEEEE;
+      text-decoration: underline; }
+    #services #amenitieslist #amenities a:visited, #services #amenitieslist #serviceslist a:visited {
+      color: #EEEEEE;
+      text-decoration: underline; }
+    #services #amenitieslist #amenities a:active, #services #amenitieslist #serviceslist a:active {
+      color: #EEEEEE;
+      text-decoration: underline; }
+    #services #amenitieslist #amenities a:hover, #services #amenitieslist #serviceslist a:hover {
+      color: #EEEEEE;
+      text-decoration: underline; }
+  #services #amenitieslist figure {
+    width: 100%;
+    margin: 20px auto; }
+    #services #amenitieslist figure img {
+      width: 100%;
+      border: 3px solid #EEEEEE; }
+
+/* --------------------------------------------- */
+/* --------- Reception Page Main Content Formatting ----------- */
+/* --------------------------------------------- */
 @media only screen and (min-width: 560px) {
   /* --------------------------------------------- */
   /* --------- Home Page Main Content Formatting ----------- */
@@ -1116,7 +1159,16 @@ section:last-child {
   #contactMap {
     display: block;
     height: 130px;
-    float: left; } }
+    float: left; }
+
+  /* --------------------------------------------- */
+  /* --------- Amenities Page Main Content Formatting ----------- */
+  /* --------------------------------------------- */
+  #services #amenitieslist {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; }
+    #services #amenitieslist #amenities {
+      order: 2; } }
 /* end of media query */
 @media only screen and (min-width: 960px) {
   /* --------------------------------------------- */
