@@ -921,8 +921,8 @@ input, textarea, select {
         border: 1px solid #333335; }
       .cards section .photo .weather {
         width: 15%;
-        background-color: #1286b7;
-        border: 2px solid #044763;
+        background-color: #044763;
+        border: 2px solid #1286b7;
         padding: 5px;
         position: absolute;
         top: 5px;
