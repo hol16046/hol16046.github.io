@@ -49,13 +49,20 @@
             <form id="reservationInfo" method="GET" action="thanks-reservation.html">
                 <fieldset>
                     <legend>Reservation Details</legend>
-                    <label class="inputLabel">
-                        Dates: *<br>
-                        <div id="dates">
-                            From: <input type="date" name="date1" autofocus> <div id= lastDate>To:
-                            <input type="date" name="date2"> </div>
-                        </div>
+                    <label class="inputLabel">                        Dates: *<br>
                     </label>
+                    <div id="dates">
+                        <label class="inputLabel">
+                            From: 
+                            <input type="date" name="date1" autofocus> 
+                        </label>
+                        <div id="lastDate">
+                            <label class="inputLabel">
+                                To:
+                                <input type="date" name="date2">
+                            </label> 
+                        </div>
+                    </div>
                     <label class="inputLabel">
                         Location: *<br>
                         <select name="locations" required="required">
