@@ -5,7 +5,7 @@ fetch(requestData)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); //temporary checking for valid response and data parsing
+        //console.table(jsonObject); //temporary checking for valid response and data parsing
 
         const temples = jsonObject['temples'];
         for (let i=0; i < temples.length; i++) {
@@ -123,7 +123,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsObject) {
-        console.table(jsObject); //temporary checking for valid response and data parsing
+        //console.table(jsObject); //temporary checking for valid response and data parsing
 
         const item = jsObject;
         let weather = document.createElement('div');
@@ -148,7 +148,7 @@ fetch(requestPA)
         return response.json();
     })
     .then(function (paObject) {
-        console.table(paObject); //temporary checking for valid response and data parsing
+        //console.table(paObject); //temporary checking for valid response and data parsing
 
         const item = paObject;
         let weather = document.createElement('div');
@@ -173,7 +173,7 @@ fetch(requestIL)
         return response.json();
     })
     .then(function (ilObject) {
-        console.table(ilObject); //temporary checking for valid response and data parsing
+        //console.table(ilObject); //temporary checking for valid response and data parsing
 
         const item = ilObject;
         let weather = document.createElement('div');
@@ -198,7 +198,7 @@ const requestCA = 'https://api.openweathermap.org/data/2.5/weather?lat=37.8065&l
         return response.json();
     })
     .then(function (caObject) {
-        console.table(caObject); //temporary checking for valid response and data parsing
+        //console.table(caObject); //temporary checking for valid response and data parsing
 
         const item = caObject;
         let weather = document.createElement('div');
