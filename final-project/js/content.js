@@ -1,13 +1,3 @@
-function changeGuests(level) {
-    document.getElementById("currentGuests").innerHTML = level;
-}
-
-function changeRooms(level) {
-    document.getElementById("currentRooms").innerHTML = level;
-}
-
-
-
 const requestData = 'data/templedata.json';
 
 fetch(requestData)
