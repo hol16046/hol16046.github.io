@@ -1094,6 +1094,9 @@ section:last-child {
       .cards section .email, .cards section .phone {
         font-size: 16px; }
 
+  section:last-child {
+    margin-bottom: 0px; }
+
   /* --------------------------------------------- */
   /* --------- Reservations Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
