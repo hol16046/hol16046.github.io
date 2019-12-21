@@ -1315,11 +1315,11 @@ section:last-child {
   /* --------------------------------------------- */
   /* --------- Missionaries Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  #receptions #features {
+  #missionaries #rooms {
     margin-bottom: 30px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px; }
-    #receptions #features figure:last-child {
+    #missionaries #rooms figure:last-child {
       grid-column: span 1;
       width: 100%; } }
 /* end of media query */
