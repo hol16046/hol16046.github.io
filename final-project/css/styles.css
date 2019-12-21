@@ -1,1242 +1,531 @@
 @charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+/* Document ========================================================================== */
+/** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
+html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers.
- */
-body {
-  margin: 0; }
+/* Sections ========================================================================== */
+/** Remove the margin in all browsers. */
+body { margin: 0; }
 
-/**
- * Render the `main` element consistently in IE.
- */
-main {
-  display: block; }
+/** Render the `main` element consistently in IE. */
+main { display: block; }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
+/** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
+h1 { font-size: 2em; margin: 0.67em 0; }
 
-/* Grouping content
-   ========================================================================== */
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */ }
+/* Grouping content ========================================================================== */
+/** 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
+hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
 
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */ }
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Remove the gray background on active links in IE 10.
- */
-a {
-  background-color: transparent; }
+/* Text-level semantics ========================================================================== */
+/** Remove the gray background on active links in IE 10. */
+a { background-color: transparent; }
 
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */ }
+/** 1. Remove the bottom border in Chrome 57- 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
+abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ text-decoration: underline dotted; /* 2 */ }
 
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b,
-strong {
-  font-weight: bolder; }
+/** Add the correct font weight in Chrome, Edge, and Safari. */
+b, strong { font-weight: bolder; }
 
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */ }
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 
-/**
- * Add the correct font size in all browsers.
- */
-small {
-  font-size: 80%; }
+/** Add the correct font size in all browsers. */
+small { font-size: 80%; }
 
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
+/** Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
 
-sub {
-  bottom: -0.25em; }
+sub { bottom: -0.25em; }
 
-sup {
-  top: -0.5em; }
+sup { top: -0.5em; }
 
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove the border on images inside links in IE 10.
- */
-img {
-  border-style: none; }
+/* Embedded content ========================================================================== */
+/** Remove the border on images inside links in IE 10. */
+img { border-style: none; }
 
-/* Forms
-   ========================================================================== */
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */ }
+/* Forms ========================================================================== */
+/** 1. Change the font styles in all browsers. 2. Remove the margin in Firefox and Safari. */
+button, input, optgroup, select, textarea { font-family: inherit; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
 
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-button,
-input {
-  /* 1 */
-  overflow: visible; }
+/** Show the overflow in IE. 1. Show the overflow in Edge. */
+button, input { /* 1 */ overflow: visible; }
 
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-button,
-select {
-  /* 1 */
-  text-transform: none; }
+/** Remove the inheritance of text transform in Edge, Firefox, and IE. 1. Remove the inheritance of text transform in Firefox. */
+button, select { /* 1 */ text-transform: none; }
 
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
+/** Correct the inability to style clickable types in iOS and Safari. */
+button, [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; }
 
-/**
- * Remove the inner border and padding in Firefox.
- */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0; }
+/** Remove the inner border and padding in Firefox. */
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner { border-style: none; padding: 0; }
 
-/**
- * Restore the focus styles unset by the previous rule.
- */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+/** Restore the focus styles unset by the previous rule. */
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring { outline: 1px dotted ButtonText; }
 
-/**
- * Correct the padding in Firefox.
- */
-fieldset {
-  padding: 0.35em 0.75em 0.625em; }
+/** Correct the padding in Firefox. */
+fieldset { padding: 0.35em 0.75em 0.625em; }
 
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */ }
+/** 1. Correct the text wrapping in Edge and IE. 2. Correct the color inheritance from `fieldset` elements in IE. 3. Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers. */
+legend { box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
 
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress {
-  vertical-align: baseline; }
+/** Add the correct vertical alignment in Chrome, Firefox, and Opera. */
+progress { vertical-align: baseline; }
 
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-textarea {
-  overflow: auto; }
+/** Remove the default vertical scrollbar in IE 10+. */
+textarea { overflow: auto; }
 
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
+/** 1. Add the correct box sizing in IE 10. 2. Remove the padding in IE 10. */
+[type="checkbox"], [type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
 
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+/** Correct the cursor style of increment and decrement buttons in Chrome. */
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; }
 
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */ }
+/** 1. Correct the odd appearance in Chrome and Safari. 2. Correct the outline style in Safari. */
+[type="search"] { -webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ }
 
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+/** Remove the inner padding in Chrome and Safari on macOS. */
+[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */ }
+/** 1. Correct the inability to style clickable types in iOS and Safari. 2. Change font properties to `inherit` in Safari. */
+::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
 
-/* Interactive
-   ========================================================================== */
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
-details {
-  display: block; }
+/* Interactive ========================================================================== */
+/* Add the correct display in Edge, IE 10+, and Firefox. */
+details { display: block; }
 
-/*
- * Add the correct display in all browsers.
- */
-summary {
-  display: list-item; }
+/* Add the correct display in all browsers. */
+summary { display: list-item; }
 
-/* Misc
-   ========================================================================== */
-/**
- * Add the correct display in IE 10+.
- */
-template {
-  display: none; }
+/* Misc ========================================================================== */
+/** Add the correct display in IE 10+. */
+template { display: none; }
 
-/**
- * Add the correct display in IE 10.
- */
-[hidden] {
-  display: none; }
+/** Add the correct display in IE 10. */
+[hidden] { display: none; }
 
-* {
-  margin: 0;
-  box-sizing: border-box; }
+* { margin: 0; box-sizing: border-box; }
 
-.resources body {
-  font-size: 20px;
-  line-height: 32px;
-  font-family: "Didact Gothic", Helvetica, sans-serif;
-  color: #333335; }
+.resources body { font-size: 20px; line-height: 32px; font-family: "Didact Gothic", Helvetica, sans-serif; color: #333335; }
 
-.resources h1, .resources h2, .resources h3, .resources h4, .resources h5, .resources h6 {
-  font-family: "Patua One", "Times New Roman", Times, serif;
-  letter-spacing: .05em; }
+.resources h1, .resources h2, .resources h3, .resources h4, .resources h5, .resources h6 { font-family: "Patua One", "Times New Roman", Times, serif; letter-spacing: .05em; }
 
-.resources h1 {
-  font-size: 2.5rem;
-  color: #ffffff; }
+.resources h1 { font-size: 2.5rem; color: #ffffff; }
 
-.resources h2 {
-  font-size: 1.5rem;
-  text-align: center;
-  border-bottom: 1px solid #bbb; }
+.resources h2 { font-size: 1.5rem; text-align: center; border-bottom: 1px solid #bbb; }
 
-.resources header, .resources main, .resources footer {
-  margin: 1.25rem auto;
-  padding: 1em;
-  max-width: 900px; }
+.resources header, .resources main, .resources footer { margin: 1.25rem auto; padding: 1em; max-width: 900px; }
 
-.resources header, .resources footer, .resources footer a {
-  text-align: center;
-  background-color: #044763;
-  color: whitesmoke; }
+.resources header, .resources footer, .resources footer a { text-align: center; background-color: #044763; color: whitesmoke; }
 
-.resources header img {
-  width: 150px;
-  height: auto;
-  float: right; }
+.resources header img { width: 150px; height: auto; float: right; }
 
-.resources li {
-  font-family: "Didact Gothic", Helvetica, sans-serif;
-  font-size: 20px; }
+.resources li { font-family: "Didact Gothic", Helvetica, sans-serif; font-size: 20px; }
 
-.resources footer {
-  font-size: 1rem;
-  font-family: "Didact Gothic", Helvetica, sans-serif; }
+.resources footer { font-size: 1rem; font-family: "Didact Gothic", Helvetica, sans-serif; }
 
-.resources li a {
-  color: #047BA0;
-  text-decoration: none; }
+.resources li a { color: #047BA0; text-decoration: none; }
 
-.resources li a:link {
-  color: #047BA0;
-  text-decoration: none; }
+.resources li a:link { color: #047BA0; text-decoration: none; }
 
-.resources li a:visited {
-  color: #047BA0;
-  text-decoration: none; }
+.resources li a:visited { color: #047BA0; text-decoration: none; }
 
 /* --------------------------------------------- */
 /* --------- Page Formatting ----------- */
 /* --------------------------------------------- */
-* {
-  margin: 0 auto;
-  box-sizing: border-box; }
+* { margin: 0 auto; box-sizing: border-box; }
 
-body {
-  font-family: "Didact Gothic", Helvetica, sans-serif;
-  font-weight: bold;
-  color: #333335;
-  font-size: 20px; }
+body { font-family: "Didact Gothic", Helvetica, sans-serif; font-weight: bold; color: #333335; font-size: 20px; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Patua One", "Times New Roman", Times, serif;
-  color: #1286b7; }
+h1, h2, h3, h4, h5, h6 { font-family: "Patua One", "Times New Roman", Times, serif; color: #1286b7; }
 
 /* Non-Navigational Link Styles */
-a {
-  text-decoration: none; }
+a { text-decoration: none; }
 
-a:link {
-  color: #1286b7; }
+a:link { color: #1286b7; }
 
-a:visited {
-  color: #044763; }
+a:visited { color: #044763; }
 
-a:hover {
-  color: #9D3000; }
+a:hover { color: #9D3000; }
 
-a:active {
-  color: #1286b7; }
+a:active { color: #1286b7; }
 
 /* --------------------------------------------- */
 /* --------- Header Formatting ----------- */
 /* --------------------------------------------- */
-header {
-  text-align: center; }
+header { text-align: center; }
 
-h1 {
-  color: #333335; }
+h1 { color: #333335; }
 
-#headerContainer {
-  display: flex;
-  margin: 20px 40px;
-  height: 160px; }
+#headerContainer { display: flex; margin: 20px 40px; height: 160px; }
 
-#brandingContainer {
-  display: flex;
-  margin: auto; }
+#brandingContainer { display: flex; margin: auto; }
 
 /* ----- Logo/Tagline Formatting ----- */
-#logo {
-  max-width: 30%;
-  height: auto;
-  max-height: 150px;
-  margin: auto; }
+#logo { max-width: 30%; height: auto; max-height: 150px; margin: auto; }
 
-#headerText {
-  width: 100%;
-  margin: auto; }
+#headerText { width: 100%; margin: auto; }
 
-#siteTitle {
-  font-size: 9.5vw;
-  text-align: right; }
+#siteTitle { font-size: 9.5vw; text-align: right; }
 
-#suites {
-  white-space: pre; }
+#suites { white-space: pre; }
 
-@media only screen and (min-width: 520px) {
-  #siteTitle {
-    font-size: 50px; } }
-@media only screen and (min-width: 720px) {
-  #brandingContainer {
-    max-width: 650px; }
-
-  #headerText {
-    padding-top: 20px;
-    padding-left: 40px; } }
+@media only screen and (min-width: 520px) { #siteTitle { font-size: 50px; } }
+@media only screen and (min-width: 720px) { #brandingContainer { max-width: 650px; }
+  #headerText { padding-top: 20px; padding-left: 40px; } }
 /* ----- Main Nav Formatting ----- */
-.navigation {
-  height: 70px;
-  background: #044763; }
+.navigation { height: 70px; background: #044763; }
 
-.brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
-  line-height: 70px;
-  text-transform: uppercase;
-  font-size: 1em; }
-  .brand a, .brand a:visited {
-    color: #EEEEEE;
-    text-decoration: none; }
+.brand { position: absolute; padding-left: 20px; float: left; line-height: 70px; text-transform: uppercase; font-size: 1em; }
+.brand a, .brand a:visited { color: #EEEEEE; text-decoration: none; }
 
-.nav-container {
-  max-width: 1020px;
-  margin: 0 auto; }
+.nav-container { max-width: 1020px; margin: 0 auto; }
 
-nav {
-  float: right; }
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-    nav ul li {
-      float: left;
-      position: relative; }
-      nav ul li a, nav ul li a:visited {
-        display: block;
-        padding: 0 20px;
-        line-height: 70px;
-        background: #044763;
-        color: #EEEEEE;
-        text-decoration: none; }
-        nav ul li a:hover, nav ul li a:visited:hover {
-          background: #333335;
-          color: #EEEEEE; }
-        nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
-          padding-left: 4px;
-          content: ' ▾'; }
-      nav ul li ul li {
-        min-width: 200px; }
-        nav ul li ul li a {
-          padding: 15px;
-          line-height: 20px; }
+nav { float: right; }
+nav ul { list-style: none; margin: 0; padding: 0; }
+nav ul li { float: left; position: relative; }
+nav ul li a, nav ul li a:visited { display: block; padding: 0 20px; line-height: 70px; background: #044763; color: #EEEEEE; text-decoration: none; }
+nav ul li a:hover, nav ul li a:visited:hover { background: #333335; color: #EEEEEE; }
+nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after { padding-left: 4px; content: ' ▾'; }
+nav ul li ul li { min-width: 200px; }
+nav ul li ul li a { padding: 15px; line-height: 20px; }
 
-.nav-dropdown {
-  position: absolute;
-  display: none;
-  z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15); }
+.nav-dropdown { position: absolute; display: none; z-index: 1; box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15); }
 
 /* Mobile Navigation */
-.nav-mobile {
-  display: none;
-  position: absolute;
-  top: 200px;
-  right: 0;
-  background: #044763;
-  height: 70px;
-  width: 70px; }
+.nav-mobile { display: none; position: absolute; top: 200px; right: 0; background: #044763; height: 70px; width: 70px; }
 
-@media only screen and (max-width: 60em) {
-  .nav-mobile {
-    display: block; }
-
-  nav {
-    width: 100%;
-    padding: 70px 0 15px; }
-    nav ul {
-      display: none; }
-      nav ul li {
-        float: none; }
-        nav ul li a {
-          padding: 15px;
-          line-height: 20px; }
-        nav ul li ul li a {
-          padding-left: 30px; }
-
-  .nav-dropdown {
-    position: static; } }
-@media screen and (min-width: 60em) {
-  .nav-list {
-    display: block !important; } }
-#nav-toggle {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  cursor: pointer;
-  padding: 10px 35px 16px 0px; }
-  #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-    cursor: pointer;
-    border-radius: 1px;
-    height: 5px;
-    width: 35px;
-    background: #EEEEEE;
-    position: absolute;
-    display: block;
-    content: '';
-    transition: all 300ms ease-in-out; }
-  #nav-toggle span:before {
-    top: -10px; }
-  #nav-toggle span:after {
-    bottom: -10px; }
-  #nav-toggle.active span {
-    background-color: transparent; }
-    #nav-toggle.active span:before, #nav-toggle.active span:after {
-      top: 0; }
-    #nav-toggle.active span:before {
-      transform: rotate(45deg); }
-    #nav-toggle.active span:after {
-      transform: rotate(-45deg); }
+@media only screen and (max-width: 60em) { .nav-mobile { display: block; }
+  nav { width: 100%; padding: 70px 0 15px; }
+  nav ul { display: none; }
+  nav ul li { float: none; }
+  nav ul li a { padding: 15px; line-height: 20px; }
+  nav ul li ul li a { padding-left: 30px; }
+  .nav-dropdown { position: static; } }
+@media screen and (min-width: 60em) { .nav-list { display: block !important; } }
+#nav-toggle { position: absolute; left: 18px; top: 22px; cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { cursor: pointer; border-radius: 1px; height: 5px; width: 35px; background: #EEEEEE; position: absolute; display: block; content: ''; transition: all 300ms ease-in-out; }
+#nav-toggle span:before { top: -10px; }
+#nav-toggle span:after { bottom: -10px; }
+#nav-toggle.active span { background-color: transparent; }
+#nav-toggle.active span:before, #nav-toggle.active span:after { top: 0; }
+#nav-toggle.active span:before { transform: rotate(45deg); }
+#nav-toggle.active span:after { transform: rotate(-45deg); }
 
 /* ----- Link Styling ----- */
-#activelink {
-  background-color: #333335; }
+#activelink { background-color: #333335; }
 
-nav a:link {
-  color: #EEEEEE; }
+nav a:link { color: #EEEEEE; }
 
-nav a:visited {
-  color: #EEEEEE; }
+nav a:visited { color: #EEEEEE; }
 
-nav a:hover {
-  color: #EEEEEE; }
+nav a:hover { color: #EEEEEE; }
 
-nav li:hover {
-  color: #EEEEEE;
-  background-color: #333335; }
+nav li:hover { color: #EEEEEE; background-color: #333335; }
 
-nav a:active {
-  color: #EEEEEE; }
+nav a:active { color: #EEEEEE; }
 
-#activelink:hover {
-  color: #EEEEEE;
-  background-color: #333335; }
+#activelink:hover { color: #EEEEEE; background-color: #333335; }
 
-#activelink a:hover {
-  color: #EEEEEE; }
+#activelink a:hover { color: #EEEEEE; }
 
-#activelinkmenu {
-  background-color: #333335; }
+#activelinkmenu { background-color: #333335; }
 
-#activelinkmenu:hover {
-  color: #EEEEEE;
-  background-color: #333335; }
+#activelinkmenu:hover { color: #EEEEEE; background-color: #333335; }
 
-#activelinkmenu a:hover {
-  color: #EEEEEE; }
+#activelinkmenu a:hover { color: #EEEEEE; }
 
 /* --------------------------------------------- */
 /* --------- Footer Formatting ----------- */
 /* --------------------------------------------- */
-footer {
-  font-size: 16px;
-  text-align: center;
-  background-color: #044763;
-  color: #EEEEEE; }
+footer { font-size: 16px; text-align: center; background-color: #044763; color: #EEEEEE; }
 
-footer a {
-  color: #EEEEEE;
-  text-decoration: underline; }
+footer a { color: #EEEEEE; text-decoration: underline; }
 
-footer a:link {
-  color: #EEEEEE;
-  text-decoration: underline; }
+footer a:link { color: #EEEEEE; text-decoration: underline; }
 
-footer a:visited {
-  color: #EEEEEE; }
+footer a:visited { color: #EEEEEE; }
 
-footer a:hover {
-  color: #EEEEEE; }
+footer a:hover { color: #EEEEEE; }
 
-footer a:active {
-  color: #EEEEEE; }
+footer a:active { color: #EEEEEE; }
 
 /* ----- Contact Info Styling ----- */
-#contact {
-  background-color: #044763;
-  padding: 20px;
-  text-align: right; }
+#contact { background-color: #044763; padding: 20px; text-align: right; }
 
-#contactHeader {
-  font-family: "Didact Gothic", Helvetica, sans-serif; }
+#contactHeader { font-family: "Didact Gothic", Helvetica, sans-serif; }
 
-#contactMap {
-  display: none; }
+#contactMap { display: none; }
 
-#contact p {
-  margin-right: 10px; }
+#contact p { margin-right: 10px; }
 
-#phone {
-  margin-bottom: -1px;
-  width: 13px; }
+#phone { margin-bottom: -1px; width: 13px; }
 
-#envelope {
-  margin-bottom: -5px;
-  width: 20px; }
+#envelope { margin-bottom: -5px; width: 20px; }
 
-#number, #email {
-  display: inline; }
+#number, #email { display: inline; }
 
 /* ----- Footer Info Styling ----- */
-#footerContent {
-  padding: 15px; }
+#footerContent { padding: 15px; }
 
 /* --------------------------------------------- */
 /* --------- Home Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
-main {
-  max-width: 1020px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center; }
+main { max-width: 1020px; margin: 10px; padding: 10px; text-align: center; }
 
-#hero {
-  position: relative;
-  min-height: 155px;
-  display: block;
-  margin-top: 20px; }
+#hero { position: relative; min-height: 155px; display: block; margin-top: 20px; }
 
-#heroImg {
-  width: 100%;
-  min-height: 220px;
-  border: 3px solid #EEEEEE; }
+#heroImg { width: 100%; min-height: 220px; border: 3px solid #EEEEEE; }
 
-#action {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  background-color: #044763;
-  padding: 10px;
-  text-align: center;
-  border: 3px solid #2490bf;
-  text-transform: uppercase; }
+#action { position: absolute; top: 30px; right: 30px; background-color: #044763; padding: 10px; text-align: center; border: 3px solid #2490bf; text-transform: uppercase; }
 
-#actionbtn:link {
-  color: #EEEEEE; }
+#actionbtn:link { color: #EEEEEE; }
 
-#actionbtn:visited {
-  color: #EEEEEE; }
+#actionbtn:visited { color: #EEEEEE; }
 
-#actionbtn:active {
-  color: #EEEEEE; }
+#actionbtn:active { color: #EEEEEE; }
 
-#actionbtn:hover {
-  color: #EEEEEE; }
+#actionbtn:hover { color: #EEEEEE; }
 
-#action:hover {
-  background-color: #9D3000; }
+#action:hover { background-color: #9D3000; }
 
-#hero h2 {
-  color: #247ba0; }
+#hero h2 { color: #247ba0; }
 
-#hero p {
-  text-align: left; }
+#hero p { text-align: left; }
 
-article {
-  text-align: left;
-  margin-top: 10px;
-  width: 100%; }
+article { text-align: left; margin-top: 10px; width: 100%; }
 
-article figure {
-  width: 90%;
-  margin: 5px;
-  padding: 5px;
-  border: 1px solid #1286b7; }
+article figure { width: 90%; margin: 5px; padding: 5px; border: 1px solid #1286b7; }
 
-article figure img {
-  width: 100%;
-  border: 3px solid #EEEEEE; }
+article figure img { width: 100%; border: 3px solid #EEEEEE; }
 
-#featured {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 10px auto; }
-  #featured figure {
-    margin: 10px 0 0 0;
-    width: 100%; }
-    #featured figure img {
-      width: 100%;
-      border: 3px solid #EEEEEE; }
-    #featured figure figcaption {
-      margin: 5px; }
+#featured { display: grid; grid-template-columns: 1fr; margin: 10px auto; }
+#featured figure { margin: 10px 0 0 0; width: 100%; }
+#featured figure img { width: 100%; border: 3px solid #EEEEEE; }
+#featured figure figcaption { margin: 5px; }
 
 /* --------------------------------------------- */
 /* --------- Reservations Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
-#reservations {
-  max-width: 600px;
-  width: 100%;
-  margin: 10px auto;
-  padding: 10px;
-  text-align: center; }
+#reservations { max-width: 600px; width: 100%; margin: 10px auto; padding: 10px; text-align: center; }
 
-#reserveHeading {
-  font-family: "Didact Gothic", Helvetica, sans-serif;
-  color: #333335; }
+#reserveHeading { font-family: "Didact Gothic", Helvetica, sans-serif; color: #333335; }
 
-#reservationInfo {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 20px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start; }
+#reservationInfo { display: flex; flex-direction: column; width: 100%; margin-top: 20px; justify-content: flex-start; align-items: flex-start; align-content: flex-start; }
 
-#reservationInfo fieldset {
-  margin: 15px;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  margin: 10px 0;
-  width: 100%; }
+#reservationInfo fieldset { margin: 15px; text-align: left; display: flex; flex-direction: column; margin: 10px 0; width: 100%; }
 
-#guestInfo {
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
-  margin-top: 20px; }
+#guestInfo { justify-content: flex-start; align-items: flex-start; align-content: flex-start; margin-top: 20px; }
 
-#guestInfo label {
-  margin: 10px; }
+#guestInfo label { margin: 10px; }
 
-legend {
-  text-align: left;
-  box-sizing: border-box;
-  margin: 0 5px;
-  padding: 0 10px; }
+legend { text-align: left; box-sizing: border-box; margin: 0 5px; padding: 0 10px; }
 
-label {
-  margin: 15px 0 0 10px; }
+label { margin: 15px 0 0 10px; }
 
-input, select, textarea {
-  padding: 5px;
-  width: 100%;
-  margin-top: 10px; }
+input, select, textarea { padding: 5px; width: 100%; margin-top: 10px; }
 
-input[type="radio"] {
-  width: 13px;
-  margin-left: 20px; }
+input[type="radio"] { width: 13px; margin-left: 20px; }
 
-textarea {
-  height: 100px; }
+textarea { height: 100px; }
 
-#currentLevel {
-  margin-left: 10px;
-  color: #333335; }
+#currentLevel { margin-left: 10px; color: #333335; }
 
-#requiredFields {
-  margin: 10px;
-  font-size: .75rem; }
+#requiredFields { margin: 10px; font-size: .75rem; }
 
-.inputLabel {
-  color: #247ba0; }
+.inputLabel { color: #247ba0; }
 
-.radioLabel {
-  color: #333335; }
+.radioLabel { color: #333335; }
 
-input, textarea, select {
-  border: 2px solid #EEEEEE; }
+input, textarea, select { border: 2px solid #EEEEEE; }
 
-#dates {
-  display: flex;
-  flex-direction: column; }
+#dates { display: flex; flex-direction: column; }
 
-#dates {
-  margin: 10px;
-  width: 95%; }
+#dates { margin: 10px; width: 95%; }
 
-#lastDate {
-  margin: 10px 0 0 10px; }
+#lastDate { margin: 10px 0 0 10px; }
 
-#countryInfo {
-  margin: 0; }
+#countryInfo { margin: 0; }
 
-#specify {
-  padding-left: 10px; }
+#specify { padding-left: 10px; }
 
-#submit {
-  margin: 0 auto; }
+#submit { margin: 0 auto; }
 
-#submit input {
-  color: #EEEEEE;
-  background-color: #044763;
-  border: 3px solid #2490bf;
-  width: 100%; }
+#submit input { color: #EEEEEE; background-color: #044763; border: 3px solid #2490bf; width: 100%; }
 
-#submit input:hover {
-  background-color: #9D3000; }
+#submit input:hover { background-color: #9D3000; }
 
 /* --------------------------------------------- */
 /* --------- Thanks Page Formatting ----------- */
 /* --------------------------------------------- */
-#thanksMain {
-  max-width: 750px;
-  margin: 0 auto; }
+#thanksMain { max-width: 750px; margin: 0 auto; }
 
-#thanks {
-  font-size: 20px; }
+#thanks { font-size: 20px; }
 
-#thanksImg {
-  margin-top: 20px;
-  max-width: 700px; }
+#thanksImg { margin-top: 20px; max-width: 700px; }
 
 /* --------------------------------------------- */
 /* --------- Contact Us Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
-#contactUs {
-  max-width: 600px;
-  width: 100%;
-  margin: 10px auto;
-  padding: 10px;
-  text-align: center; }
+#contactUs { max-width: 600px; width: 100%; margin: 10px auto; padding: 10px; text-align: center; }
 
-#contactUsInfo {
-  margin: 20px auto;
-  text-align: left;
-  padding: 0 10px; }
+#contactUsInfo { margin: 20px auto; text-align: left; padding: 0 10px; }
 
-#contactUsInfo p {
-  margin: 10px 0; }
+#contactUsInfo p { margin: 10px 0; }
 
-#address {
-  margin-top: 20px; }
+#address { margin-top: 20px; }
 
-#contactUsForm {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 20px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start; }
+#contactUsForm { display: flex; flex-direction: column; width: 100%; margin-top: 20px; justify-content: flex-start; align-items: flex-start; align-content: flex-start; }
 
-#contactUsForm fieldset {
-  margin: 15px;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  margin: 10px 0;
-  width: 100%; }
+#contactUsForm fieldset { margin: 15px; text-align: left; display: flex; flex-direction: column; margin: 10px 0; width: 100%; }
 
 /* --------------------------------------------- */
 /* --------- Temples Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
-#templesMain {
-  padding: 0; }
+#templesMain { padding: 0; }
 
-#templesHeading {
-  font-family: "Didact Gothic", Helvetica, sans-serif;
-  color: #333335; }
+#templesHeading { font-family: "Didact Gothic", Helvetica, sans-serif; color: #333335; }
 
-.cards {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 100%;
-  margin: 0 auto; }
-  .cards section {
-    width: 100%;
-    margin-top: 30px;
-    background-color: #044763;
-    color: #EEEEEE;
-    padding: 10px;
-    border: 1px solid #044763;
-    box-shadow: 0px 0px 10px #333335;
-    font-size: 18px;
-    word-wrap: normal; }
-    .cards section .photo {
-      position: relative;
-      width: 85%;
-      margin: 15px auto 0 auto; }
-      .cards section .photo img {
-        width: 100%;
-        border: 1px solid #333335; }
-      .cards section .photo .weather {
-        width: 15%;
-        background-color: #044763;
-        border: 2px solid #1286b7;
-        padding: 5px;
-        position: absolute;
-        top: 5px;
-        right: 5px; }
-        .cards section .photo .weather img {
-          width: 90%;
-          border: none;
-          margin: 0; }
-        .cards section .photo .weather p {
-          color: #EEEEEE; }
-    .cards section h3 {
-      color: #EEEEEE;
-      text-decoration: underline;
-      text-decoration-color: #2490bf; }
-    .cards section h4, .cards section h5 {
-      font-family: "Didact Gothic", Helvetica, sans-serif;
-      font-size: 20px;
-      text-align: left;
-      color: #EEEEEE;
-      text-decoration: underline;
-      text-decoration-color: #2490bf; }
-    .cards section h5 {
-      margin-left: 15px; }
-    .cards section ul {
-      list-style-type: none;
-      text-align: left; }
-    .cards section div {
-      margin: 10px; }
-    .cards section .schedule p {
-      text-align: left;
-      margin-left: 15px; }
-    .cards section .email:link {
-      color: #EEEEEE; }
-    .cards section .email:visited {
-      color: #EEEEEE; }
-    .cards section .email:active {
-      color: #EEEEEE; }
-    .cards section .email:hover {
-      color: #EEEEEE;
-      text-decoration: underline; }
-    .cards section .email, .cards section .phone {
-      font-size: 14px; }
+.cards { display: grid; grid-template-columns: 1fr; width: 100%; margin: 0 auto; }
+.cards section { width: 100%; margin-top: 30px; background-color: #044763; color: #EEEEEE; padding: 10px; border: 1px solid #044763; box-shadow: 0px 0px 10px #333335; font-size: 18px; word-wrap: normal; }
+.cards section .photo { position: relative; width: 85%; margin: 15px auto 0 auto; }
+.cards section .photo img { width: 100%; border: 1px solid #333335; }
+.cards section .photo .weather { width: 15%; background-color: #044763; border: 2px solid #1286b7; padding: 5px; position: absolute; top: 5px; right: 5px; }
+.cards section .photo .weather img { width: 90%; border: none; margin: 0; }
+.cards section .photo .weather p { color: #EEEEEE; }
+.cards section h3 { color: #EEEEEE; text-decoration: underline; text-decoration-color: #2490bf; }
+.cards section h4, .cards section h5 { font-family: "Didact Gothic", Helvetica, sans-serif; font-size: 20px; text-align: left; color: #EEEEEE; text-decoration: underline; text-decoration-color: #2490bf; }
+.cards section h5 { margin-left: 15px; }
+.cards section ul { list-style-type: none; text-align: left; }
+.cards section div { margin: 10px; }
+.cards section .schedule p { text-align: left; margin-left: 15px; }
+.cards section .email:link { color: #EEEEEE; }
+.cards section .email:visited { color: #EEEEEE; }
+.cards section .email:active { color: #EEEEEE; }
+.cards section .email:hover { color: #EEEEEE; text-decoration: underline; }
+.cards section .email, .cards section .phone { font-size: 14px; }
 
-.tagline {
-  margin: 5px;
-  font-style: italic; }
+.tagline { margin: 5px; font-style: italic; }
 
-section:last-child {
-  margin-bottom: 20px; }
+section:last-child { margin-bottom: 20px; }
 
 /* --------------------------------------------- */
 /* --------- Amenities Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
-#services #amenitieslist {
-  display: grid;
-  grid-template-columns: 1fr; }
-  #services #amenitieslist #amenities, #services #amenitieslist #serviceslist {
-    background-color: #044763;
-    color: #EEEEEE;
-    margin: 10px auto;
-    padding: 20px 10px;
-    width: 100%; }
-    #services #amenitieslist #amenities h3, #services #amenitieslist #serviceslist h3 {
-      color: #EEEEEE;
-      text-decoration: underline;
-      text-decoration-color: #2490bf; }
-    #services #amenitieslist #amenities ul, #services #amenitieslist #serviceslist ul {
-      text-align: left;
-      margin-top: 10px; }
-    #services #amenitieslist #amenities a:link, #services #amenitieslist #serviceslist a:link {
-      color: #EEEEEE;
-      text-decoration: underline; }
-    #services #amenitieslist #amenities a:visited, #services #amenitieslist #serviceslist a:visited {
-      color: #EEEEEE;
-      text-decoration: underline; }
-    #services #amenitieslist #amenities a:active, #services #amenitieslist #serviceslist a:active {
-      color: #EEEEEE;
-      text-decoration: underline; }
-    #services #amenitieslist #amenities a:hover, #services #amenitieslist #serviceslist a:hover {
-      color: #EEEEEE;
-      text-decoration: underline; }
-  #services #amenitieslist figure {
-    width: 100%;
-    margin: 20px auto; }
-    #services #amenitieslist figure img {
-      width: 100%;
-      border: 3px solid #EEEEEE; }
+#services #amenitieslist { display: grid; grid-template-columns: 1fr; }
+#services #amenitieslist #amenities, #services #amenitieslist #serviceslist { background-color: #044763; color: #EEEEEE; margin: 10px auto; padding: 20px 10px; width: 100%; }
+#services #amenitieslist #amenities h3, #services #amenitieslist #serviceslist h3 { color: #EEEEEE; text-decoration: underline; text-decoration-color: #2490bf; }
+#services #amenitieslist #amenities ul, #services #amenitieslist #serviceslist ul { text-align: left; margin-top: 10px; }
+#services #amenitieslist #amenities a:link, #services #amenitieslist #serviceslist a:link { color: #EEEEEE; text-decoration: underline; }
+#services #amenitieslist #amenities a:visited, #services #amenitieslist #serviceslist a:visited { color: #EEEEEE; text-decoration: underline; }
+#services #amenitieslist #amenities a:active, #services #amenitieslist #serviceslist a:active { color: #EEEEEE; text-decoration: underline; }
+#services #amenitieslist #amenities a:hover, #services #amenitieslist #serviceslist a:hover { color: #EEEEEE; text-decoration: underline; }
+#services #amenitieslist figure { width: 100%; margin: 20px auto; }
+#services #amenitieslist figure img { width: 100%; border: 3px solid #EEEEEE; }
 
 /* --------------------------------------------- */
 /* --------- Reception Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
-#receptions #features {
-  display: grid; }
-  #receptions #features figure {
-    width: 100%;
-    margin: 20px auto; }
-    #receptions #features figure img {
-      width: 100%; }
-#receptions #receptionForm {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 20px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start; }
-  #receptions #receptionForm fieldset {
-    margin: 15px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-    width: 100%; }
+#receptions #features { display: grid; }
+#receptions #features figure { width: 100%; margin: 20px auto; }
+#receptions #features figure img { width: 100%; }
+#receptions #receptionForm { display: flex; flex-direction: column; width: 100%; margin-top: 20px; justify-content: flex-start; align-items: flex-start; align-content: flex-start; }
+#receptions #receptionForm fieldset { margin: 15px; text-align: left; display: flex; flex-direction: column; margin: 10px 0; width: 100%; }
 
 /* --------------------------------------------- */
 /* --------- Missionaries Page Main Content Formatting ----------- */
 /* --------------------------------------------- */
-#missionaries #rooms {
-  display: grid; }
-  #missionaries #rooms figure {
-    width: 100%;
-    margin: 20px auto; }
-    #missionaries #rooms figure img {
-      width: 100%; }
-#missionaries #missionaryForm {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 20px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start; }
-  #missionaries #missionaryForm fieldset {
-    margin: 15px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-    width: 100%; }
+#missionaries #rooms { display: grid; }
+#missionaries #rooms figure { width: 100%; margin: 20px auto; }
+#missionaries #rooms figure img { width: 100%; }
+#missionaries #missionaryForm { display: flex; flex-direction: column; width: 100%; margin-top: 20px; justify-content: flex-start; align-items: flex-start; align-content: flex-start; }
+#missionaries #missionaryForm fieldset { margin: 15px; text-align: left; display: flex; flex-direction: column; margin: 10px 0; width: 100%; }
 
-@media only screen and (min-width: 560px) {
-  /* --------------------------------------------- */
+@media only screen and (min-width: 560px) { /* --------------------------------------------- */
   /* --------- Home Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  article figure {
-    float: right;
-    width: 50%; }
-
-  #featured {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px; }
-    #featured figure:last-child {
-      grid-column: span 2;
-      width: 50%;
-      justify-self: center; }
-
+  article figure { float: right; width: 50%; }
+  #featured { grid-template-columns: 1fr 1fr; grid-gap: 10px; }
+  #featured figure:last-child { grid-column: span 2; width: 50%; justify-self: center; }
   /* --------------------------------------------- */
   /* --------- Temples Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px; }
-
-  .cards {
-    margin-top: 30px; }
-    .cards section {
-      margin-top: 0; }
-      .cards section .email, .cards section .phone {
-        font-size: 16px; }
-
-  section:last-child {
-    margin-bottom: 0px; }
-
+  .cards { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px; }
+  .cards { margin-top: 30px; }
+  .cards section { margin-top: 0; }
+  .cards section .email, .cards section .phone { font-size: 16px; }
+  section:last-child { margin-bottom: 0px; }
   /* --------------------------------------------- */
   /* --------- Reservations Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  form {
-    max-width: 600px; }
-
+  form { max-width: 600px; }
   /* --------------------------------------------- */
   /* --------- Thanks Page Formatting ----------- */
   /* --------------------------------------------- */
-  #thanks {
-    font-size: 25px; }
-
+  #thanks { font-size: 25px; }
   /* --------------------------------------------- */
   /* --------- Footer Formatting ----------- */
   /* --------------------------------------------- */
-  footer {
-    padding-top: 0; }
-
+  footer { padding-top: 0; }
   /* ----- Contact Info Styling ----- */
-  #contact {
-    min-height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-
-  #contactMap {
-    display: block;
-    height: 130px;
-    float: left; }
-
+  #contact { min-height: 200px; display: flex; justify-content: center; align-items: center; }
+  #contactMap { display: block; height: 130px; float: left; }
   /* --------------------------------------------- */
   /* --------- Amenities Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  #services #amenitieslist {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px; }
-    #services #amenitieslist #amenities {
-      order: 2; }
-
+  #services #amenitieslist { grid-template-columns: 1fr 1fr; grid-gap: 10px; }
+  #services #amenitieslist #amenities { order: 2; }
   /* --------------------------------------------- */
   /* --------- Receptions Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  #receptions #features {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px; }
-    #receptions #features figure:last-child {
-      grid-column: span 2;
-      width: 60%;
-      justify-self: center; }
-
+  #receptions #features { grid-template-columns: 1fr 1fr; grid-gap: 10px; }
+  #receptions #features figure:last-child { grid-column: span 2; width: 60%; justify-self: center; }
   /* --------------------------------------------- */
   /* --------- Missionaries Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  #missionaries #rooms {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px; }
-    #missionaries #rooms figure:last-child {
-      grid-column: span 2;
-      width: 60%;
-      justify-self: center; } }
+  #missionaries #rooms { grid-template-columns: 1fr 1fr; grid-gap: 10px; }
+  #missionaries #rooms figure:last-child { grid-column: span 2; width: 60%; justify-self: center; } }
 /* end of media query */
-@media only screen and (min-width: 960px) {
-  /* --------------------------------------------- */
+@media only screen and (min-width: 960px) { /* --------------------------------------------- */
   /* ---------Desktop View Formatting ----------- */
   /* --------------------------------------------- */
-  header, main, footer {
-    margin: 1.25rem auto;
-    padding: 1em;
-    max-width: none; }
-
-  #headerContainer, #mainNav ul, main, #footerContent {
-    max-width: 1020px; }
-
+  header, main, footer { margin: 1.25rem auto; padding: 1em; max-width: none; }
+  #headerContainer, #mainNav ul, main, #footerContent { max-width: 1020px; }
   /* --------------------------------------------- */
   /* --------- Header Formatting ----------- */
   /* --------------------------------------------- */
-  #headerContainer {
-    margin: 0 auto;
-    padding: 0; }
-
-  #siteTitle {
-    font-size: 60px; }
-
-  #headerContainer {
-    height: 225px; }
-
-  #brandingContainer {
-    max-width: 1020px; }
-
-  .brand {
-    display: none; }
-
-  .nav-container {
-    display: flex; }
-
-  nav {
-    float: none; }
-
+  #headerContainer { margin: 0 auto; padding: 0; }
+  #siteTitle { font-size: 60px; }
+  #headerContainer { height: 225px; }
+  #brandingContainer { max-width: 1020px; }
+  .brand { display: none; }
+  .nav-container { display: flex; }
+  nav { float: none; }
   /* --------------------------------------------- */
   /* --------- Footer Formatting ----------- */
   /* --------------------------------------------- */
-  #contact, #footerContent {
-    padding: 0;
-    max-width: 1020px; }
-
+  #contact, #footerContent { padding: 0; max-width: 1020px; }
   /* --------------------------------------------- */
   /* --------- Thanks Page Formatting ----------- */
   /* --------------------------------------------- */
-  #thanks {
-    font-size: 30px; }
-
+  #thanks { font-size: 30px; }
   /* --------------------------------------------- */
   /* --------- Home Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  #featured {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px; }
-    #featured figure:last-child {
-      grid-column: span 1;
-      width: 100%; }
-
+  #featured { grid-template-columns: 1fr 1fr 1fr; grid-gap: 10px; }
+  #featured figure:last-child { grid-column: span 1; width: 100%; }
   /* --------------------------------------------- */
   /* --------- Receptions Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  #receptions #features {
-    margin-bottom: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px; }
-    #receptions #features figure:last-child {
-      grid-column: span 1;
-      width: 100%; }
-
+  #receptions #features { margin-bottom: 30px; grid-template-columns: 1fr 1fr 1fr; grid-gap: 10px; }
+  #receptions #features figure:last-child { grid-column: span 1; width: 100%; }
   /* --------------------------------------------- */
   /* --------- Missionaries Page Main Content Formatting ----------- */
   /* --------------------------------------------- */
-  #missionaries #rooms {
-    margin-bottom: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px; }
-    #missionaries #rooms figure:last-child {
-      grid-column: span 1;
-      width: 100%; } }
+  #missionaries #rooms { margin-bottom: 30px; grid-template-columns: 1fr 1fr 1fr; grid-gap: 10px; }
+  #missionaries #rooms figure:last-child { grid-column: span 1; width: 100%; } }
 /* end of media query */
