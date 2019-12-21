@@ -353,9 +353,7 @@ input, textarea, select { border: 2px solid #EEEEEE; }
 
 #specify { padding-left: 10px; }
 
-#submit { margin: 0 auto; }
-
-#submit input { color: #EEEEEE; background-color: #044763; border: 3px solid #2490bf; width: 100%; }
+#submit { margin: 0 auto; color: #EEEEEE; background-color: #044763; border: 3px solid #2490bf; width: fit-content; }
 
 #submit input:hover { background-color: #9D3000; }
 

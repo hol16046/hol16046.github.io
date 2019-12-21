@@ -518,12 +518,10 @@ input, textarea, select {
 }
 #submit {
     margin: 0 auto;
-}
-#submit input {
     color: $lightGray;
     background-color: $darkBlue;
     border: 3px solid $brightBlue;
-    width: 100%;
+    width: fit-content;
 }
 #submit input:hover {
     background-color: $complementary;
