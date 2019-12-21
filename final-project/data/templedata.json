@@ -1,12 +1,27 @@
 {
     "temples" : [
         {
+            "id": "palmyra",
             "name": "Palmyra, New York",
             "photo": "palmyra.jpg",
             "addressLine1": "2720 Temple Rd",
             "addressLine2": "Palmyra, NY 14522-9573",
             "phone": "+1 (315) 597-6001",
             "email": "palmyra.temple@churchofjesuschrist.org",
+            "ordinances": [
+                "Monday - Saturday",
+                "8:30 AM - 10:00 AM",
+                "10:30 AM - 12:00 PM",
+                "5:30 PM - 7:00 PM",
+                "7:30 PM - 9:00 PM"
+            ],
+            "sessions": [
+                "Monday - Saturday",
+                "9:00 AM",
+                "11:00 AM",
+                "6:00 PM",
+                "8:00 PM"
+            ],
             "services" : [
                 "No clothing rental available",
                 "No cafeteria available",
@@ -37,12 +52,22 @@
             ]
         },
         {
+            "id": "philadelphia",
             "name": "Philadelphia, Pennsylvania",
             "photo": "philadelphia.jpg",
             "addressLine1": "1739 Vine St",
             "addressLine2": "Philadelphia, PA 19103",
             "phone": "+1 (215) 398-3040",
             "email": "philadelphia.temple@churchofjesuschrist.org",
+            "ordinances": [
+                "Tuesday - Saturday",
+                "5:45 PM - 9:00 PM"
+            ],
+            "sessions": [
+                "Tuesday - Saturday",
+                "6:30 PM",
+                "7:45 PM"
+            ],
             "services" : [
                 "Clothing rental available",
                 "No cafeteria available",
@@ -69,12 +94,30 @@
             ]
         },
         {
+            "id": "nauvoo",
             "name": "Nauvoo, Illinois",
             "photo": "nauvoo.jpg",
             "addressLine1": "50 N Wells St",
             "addressLine2": "Nauvoo, IL 62354",
             "phone": "+1 (217) 453-6252",
             "email": "nauvoo.temple@churchofjesuschrist.org",
+            "ordinances": [
+                "Tuesday - Saturday",
+                "8:00 AM - 6:30 PM"
+            ],
+            "sessions": [
+                "Tuesday - Saturday",
+                "8:00 AM",
+                "9:00 AM",
+                "10:00 AM",
+                "11:00 AM",
+                "12:00 PM",
+                "1:00 PM",
+                "2:00 PM",
+                "3:00 PM",
+                "4:00 PM",
+                "5:00 PM"
+            ],
             "services" : [
                 "Clothing rental available",
                 "No cafeteria available",
@@ -98,12 +141,36 @@
             ]
         },
         {
+            "id": "oakland",
             "name": "Oakland, California",
             "photo": "oakland.jpg",
             "addressLine1": "4770 Lincoln Ave",
             "addressLine2": "Oakland, CA 94602-2535",
             "phone": "+1 (510) 531-3200",
             "email": "oakland.temple@churchofjesuschrist.org",
+            "ordinances": [
+                "Tuesday - Saturday",
+                "7:00 AM - 9:00 PM"
+            ],
+            "sessions": [
+                "Tuesday - Saturday",
+                "5:30 AM",
+                "6:00 AM",
+                "7:00 AM",
+                "8:00 AM",
+                "9:00 AM",
+                "10:00 AM",
+                "11:00 AM",
+                "12:00 PM",
+                "1:00 PM",
+                "2:00 PM",
+                "3:00 PM",
+                "4:00 PM",
+                "5:00 PM",
+                "6:00 PM",
+                "7:00 PM",
+                "8:00 PM"
+            ],
             "services" : [
                 "Clothing rental available",
                 "Cafeteria available",
