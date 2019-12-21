@@ -1173,5 +1173,8 @@ section:last-child {
   /* --------------------------------------------- */
   #featured {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px; } }
+    grid-gap: 10px; }
+    #featured figure:last-child {
+      grid-column: span 1;
+      width: 100%; } }
 /* end of media query */

@@ -60,4 +60,8 @@ nav {
 #featured {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    figure:last-child {
+        grid-column: span 1;
+        width: 100%;
+    }
 }
